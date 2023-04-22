@@ -19,3 +19,13 @@
     color: black;
     max-width: 60%;
 }
+
+@media only screen and (max-width: 371px) {
+  .bd-slider__section {
+    margin-top: 30px;
+  }
+
+  .euroComLogo{
+    max-width: 80%;
+  }
+}

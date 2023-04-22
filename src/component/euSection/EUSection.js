@@ -25,6 +25,7 @@ const EUSection = () => {
             <div className="bd-section__btn-wrapper text-lg-end">
               <img
                 src="assets/img/extra/european-commission.svg"
+                className="euroComLogo"
                 alt="european comission logo"
                 width="300px"
               />
