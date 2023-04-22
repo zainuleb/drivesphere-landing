@@ -1,0 +1,21 @@
+.bg-item {
+  position: relative; /* make the item position relative */
+}
+
+.bg-item::before {
+  content: ""; /* create a pseudo element for the background image */
+  position: absolute; /* position the pseudo element absolutely */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* set z-index to -1 so the content appears on top */
+  background-size: cover; /* set background size */
+  background-position: center center; /* set background position */
+}
+
+
+.mainPara{
+    color: black;
+    max-width: 60%;
+}
