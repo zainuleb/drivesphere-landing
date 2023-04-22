@@ -96,7 +96,7 @@ const Feature = () => {
           </div>
           <div className="col-lg-4">
             <div className="bd-feature__img p-relative z-index-11 wow fadeInUp">
-              <img src="assets/img/feature/feature-thumb.png" alt="" />
+              <img src="assets/img/extra/image2.jpg" alt="" />
             </div>
           </div>
         </div>

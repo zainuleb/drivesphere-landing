@@ -10,8 +10,8 @@ const Main = () => {
               className="swiper-slide bd-slider__item bd-slider__height include-bg d-flex align-items-center bg-item"
               style={{
                 backgroundImage: "url(assets/img/extra/manDriving.png)",
-                backgroundSize: "contain",
-                backgroundPosition: "40rem -7rem",
+                backgroundSize: "65em 75em",
+                backgroundPosition: "36rem -9rem",
                 backgroundRepeat:
                   "no-repeat" /* prevent the background from repeating */,
                 width: "100%" /* set the width to fill the container */,

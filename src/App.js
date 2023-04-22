@@ -5,6 +5,7 @@ import Footer from "./component/footer/Footer";
 import Main from "./component/main/Main";
 import Backtop from "./component/utils/backtop/Backtop";
 import Preloader from "./component/utils/preloader/Preloader";
+import Header from "./component/header/Header";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -22,6 +23,7 @@ function App() {
       {showPreloader && <Preloader />}
       <Backtop />
       <Main />
+      <Header />
       <Feature />
       <EUSection />
       <Footer />
