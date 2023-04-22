@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import EUSection from "./component/euSection/EUSection";
 import Feature from "./component/features/Feature";
 import Footer from "./component/footer/Footer";
@@ -6,9 +7,19 @@ import Backtop from "./component/utils/backtop/Backtop";
 import Preloader from "./component/utils/preloader/Preloader";
 
 function App() {
+  const [showPreloader, setShowPreloader] = useState(true);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowPreloader(false);
+    }, 2000);
+
+    return () => clearTimeout(timeoutId);
+  }, []);
+
   return (
     <div className="App">
-      <Preloader />
+      {showPreloader && <Preloader />}
       <Backtop />
       <Main />
       <Feature />
