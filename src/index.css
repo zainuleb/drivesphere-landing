@@ -50,3 +50,6 @@
   color: white;
 }
 
+.bd-section__title-wrapper p{
+  text-align: justify;
+}

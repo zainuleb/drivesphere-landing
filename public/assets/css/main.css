@@ -2198,8 +2198,12 @@ input[type="color"] {
   only screen and (min-width: 576px) and (max-width: 767px),
   only screen and (min-width: 768px) and (max-width: 991px) {
   .bd-feature__img img {
-    width: 100%;
+    width: 80%;
   }
+}
+
+.bd-feature__img img {
+  width: 80%;
 }
 
 /*----------------------------------------*/

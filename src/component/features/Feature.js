@@ -2,7 +2,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="bd-feature__section theme-bg pt-120 pb-120 fix">
+    <div className="bd-feature__section theme-bg pt-30 pb-30 fix">
       <div className="container">
         <div className="row">
           <div className="col-lg-8">

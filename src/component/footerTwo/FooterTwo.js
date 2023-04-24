@@ -40,12 +40,11 @@ const FooterTwo = () => {
                       based on research and data, we cannot guarantee specific
                       results or outcomes. The effectiveness of the training
                       program may vary depending on individual driver skill
-                      levels and other factors beyond our control.
-                      <br />
-                      By using our driving simulator training program, you agree
-                      that we shall not be liable for any direct, indirect,
-                      incidental, or consequential damages or losses that may
-                      arise from your use of our service.
+                      levels and other factors beyond our control. By using our
+                      driving simulator training program, you agree that we
+                      shall not be liable for any direct, indirect, incidental,
+                      or consequential damages or losses that may arise from
+                      your use of our service.
                     </p>
                     <div className="bd-footer-widget__social">
                       <span>

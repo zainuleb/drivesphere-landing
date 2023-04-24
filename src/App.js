@@ -9,6 +9,7 @@ import Header from "./component/header/Header";
 import Pricing from "./component/pricing/Pricing";
 import SubscriptionForm from "./component/subscription/SubscriptionForm";
 import FooterTwo from "./component/footerTwo/FooterTwo";
+import AboutUs from "./component/aboutUs/AboutUs";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -29,6 +30,7 @@ function App() {
       <Header />
       <Feature />
       <EUSection />
+      <AboutUs />
       <Pricing />
       <SubscriptionForm />
       <Footer />
