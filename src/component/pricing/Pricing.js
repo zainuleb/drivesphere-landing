@@ -31,7 +31,7 @@ const Pricing = () => {
                   </div>
                   <ul>
                     <li>
-                      Simulator classes <span> 4</span>
+                      Simulator Classes <span> 4</span>
                     </li>
                   </ul>
                   <div className="bd-price-btn-wrapper">
@@ -60,7 +60,7 @@ const Pricing = () => {
                   </div>
                   <ul>
                     <li>
-                      Simulator classes <span> 8</span>
+                      Simulator Classes <span> 8</span>
                     </li>
                   </ul>
                   <div className="bd-price-btn-wrapper">
@@ -89,7 +89,7 @@ const Pricing = () => {
                   </div>
                   <ul>
                     <li>
-                      Simulator classes <span> 12</span>
+                      Simulator Classes <span> 12</span>
                     </li>
                   </ul>
                   <div className="bd-price-btn-wrapper">
@@ -118,7 +118,7 @@ const Pricing = () => {
                   </div>
                   <ul>
                     <li>
-                      Simulator classes <span> 16</span>
+                      Simulator Classes <span> 16</span>
                     </li>
                   </ul>
                   <div className="bd-price-btn-wrapper">
@@ -147,7 +147,7 @@ const Pricing = () => {
                   </div>
                   <ul>
                     <li>
-                      Simulator classes <span> Unlimited</span>
+                      Simulator Classes <span> Unlimited</span>
                     </li>
                   </ul>
                   <div className="bd-price-btn-wrapper">

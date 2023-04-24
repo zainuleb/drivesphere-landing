@@ -14,10 +14,9 @@
   background-position: center center; /* set background position */
 }
 
-
-.mainPara{
-    color: black;
-    max-width: 60%;
+.mainPara {
+  color: black;
+  max-width: 60%;
 }
 
 .bd-slider__height {
@@ -29,49 +28,62 @@
     margin-top: 30px;
   }
 
-  .euroComLogo{
+  .euroComLogo {
     max-width: 80%;
   }
 }
 
-
-.bd-contact__section{
+.bd-contact__section {
   background: #e6dada; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,  #274046,#e6dada); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,#274046, #e6dada); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.bd-footer__section{
+.bd-footer__section {
   background: black;
-
 }
 
-.bd-footer-widget__content p, .bd-footer-widget h5,.bd-footer__copyright a{
+.bd-footer-widget__content p,
+.bd-footer-widget h5,
+.bd-footer__copyright a {
   color: white;
 }
 
-.bd-section__title-wrapper p{
+.bd-section__title-wrapper p {
   text-align: justify;
 }
 
-.bd-section__inner-list{
+.bd-section__inner-list {
   font-size: 18px;
   color: rgb(11, 28, 30);
 }
 
-.bd-section__inner-list li{
+.bd-section__inner-list li {
   margin: 14px 0px;
   text-align: justify;
 }
 
 .bd-section__inner-title {
- 
   font-size: 30px;
 }
 
-.bd-section__inner-titleSub{
+.bd-section__inner-titleSub {
   display: inline-block;
   background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bd-price__content ul li{
+  font-weight: bold;
+  font-size: 15px;
+  color: #0e0202;
 }
