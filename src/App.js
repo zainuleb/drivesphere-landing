@@ -7,6 +7,7 @@ import Backtop from "./component/utils/backtop/Backtop";
 import Preloader from "./component/utils/preloader/Preloader";
 import Header from "./component/header/Header";
 import Pricing from "./component/pricing/Pricing";
+import SubscriptionForm from "./component/subscription/SubscriptionForm";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -28,6 +29,7 @@ function App() {
       <Feature />
       <EUSection />
       <Pricing />
+      <SubscriptionForm />
       <Footer />
     </div>
   );

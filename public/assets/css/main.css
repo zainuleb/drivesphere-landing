@@ -1588,9 +1588,8 @@ input[type="color"] {
 }
 
 @media (max-width: 575px),
-  only screen and (min-width: 576px) and (max-width: 767px){
-
-  .logo{
+  only screen and (min-width: 576px) and (max-width: 767px) {
+  .logo {
     display: flex;
     justify-content: center;
   }
@@ -1940,7 +1939,7 @@ input[type="color"] {
     font-size: 35px;
   }
   .bd-slider__content p {
-    font-size: 20px !important
+    font-size: 20px !important;
   }
 }
 .bd-slider__content p {
@@ -2975,6 +2974,29 @@ input[type="color"] {
   border-radius: 7px;
   background: #f7f7f7;
 }
+
+.postbox__comment-input input,
+.postbox__comment-input select{
+  height: 55px;
+  padding: 0 20px;
+  width: 100%;
+  font-size: 14px;
+  color: var(--bd-common-black);
+  outline: none;
+  border: 1px solid transparent;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  background: #f7f7f7;
+}
+
+.postbox__comment-input select option {
+  font-size: 16px;
+  font-style: oblique;
+}
+
 .postbox__comment-input input::-webkit-input-placeholder,
 .postbox__comment-input textarea::-webkit-input-placeholder {
   color: grey;
