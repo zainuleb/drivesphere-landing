@@ -8,6 +8,7 @@ import Preloader from "./component/utils/preloader/Preloader";
 import Header from "./component/header/Header";
 import Pricing from "./component/pricing/Pricing";
 import SubscriptionForm from "./component/subscription/SubscriptionForm";
+import FooterTwo from "./component/footerTwo/FooterTwo";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -31,6 +32,7 @@ function App() {
       <Pricing />
       <SubscriptionForm />
       <Footer />
+      <FooterTwo />
     </div>
   );
 }

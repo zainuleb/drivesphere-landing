@@ -4055,12 +4055,13 @@ blockquote cite::before {
 .bd-footer-widget__title {
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
 .bd-footer-widget__content p {
   margin-bottom: 30px;
+  text-align: justify;
 }
 .bd-footer-widget__form {
   position: relative;
