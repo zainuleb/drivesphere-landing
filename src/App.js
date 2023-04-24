@@ -6,6 +6,7 @@ import Main from "./component/main/Main";
 import Backtop from "./component/utils/backtop/Backtop";
 import Preloader from "./component/utils/preloader/Preloader";
 import Header from "./component/header/Header";
+import Pricing from "./component/pricing/Pricing";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -26,6 +27,7 @@ function App() {
       <Header />
       <Feature />
       <EUSection />
+      <Pricing />
       <Footer />
     </div>
   );
