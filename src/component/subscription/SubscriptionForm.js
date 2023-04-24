@@ -8,22 +8,33 @@ const SubscriptionForm = () => {
           <div className="col-lg-8">
             <div className="postbox__comment-form mb-30">
               <h3 className="postbox__comment-form-title">Sign Up Now</h3>
-              <form action="#">
+              <form
+                method="POST"
+                action="https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse"
+              >
                 <div className="row">
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
-                      <input type="text" placeholder="Your Name" />
+                      <input
+                        name="entry.1122186267"
+                        type="text"
+                        placeholder="Your Name"
+                      />
                     </div>
                   </div>
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
-                      <input type="email" placeholder="Your Email" />
+                      <input
+                        name="entry.1918902053"
+                        type="email"
+                        placeholder="Your Email"
+                      />
                     </div>
                   </div>
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
                       <select>
-                        <option selected disabled>
+                        <option value="" disabled selected>
                           Choose your City ...
                         </option>
                         <option value="Barcelona">Barcelona</option>
@@ -51,6 +62,7 @@ const SubscriptionForm = () => {
                     <div className="postbox__comment-input">
                       <input
                         type="text"
+                        name="entry.289865807"
                         placeholder="Mention your city if not in List"
                       />
                     </div>
@@ -74,7 +86,7 @@ const SubscriptionForm = () => {
                 <span>-------------------</span>
               </div>
               <div className="tp-pt__inmner-step mb-30">
-                <h4>Call us</h4>
+                <h4>Call</h4>
                 <span>------------------</span>
               </div>
               <div className="tp-pt__inmner-step mb-30">
