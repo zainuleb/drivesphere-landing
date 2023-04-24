@@ -63,3 +63,15 @@
   margin: 14px 0px;
   text-align: justify;
 }
+
+.bd-section__inner-title {
+ 
+  font-size: 30px;
+}
+
+.bd-section__inner-titleSub{
+  display: inline-block;
+  background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

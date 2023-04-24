@@ -75,7 +75,7 @@ const FooterTwo = () => {
           </div>
           <div className="bd-footer__copyright bd-border-top pt-40 pb-40">
             <span>
-              All rights reserved © 2022 <a href="index.html">DriveSphere</a>
+              All rights reserved © 2023 <a href="index.html">DriveSphere</a>
             </span>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Feature = () => {
               {/* <p className="mb-25">
                 Lorem ipsum dolor sit amet conse cotur adip isicing elit sed do
                 eiu smod tempor incid idunt labore arale tomader majhe ki keu
-                ase bondhu Lorem ipsum dolor{" "}
+                ase bondhu Lorem ipsum dolor
               </p> */}
             </div>
             <div className="bd-feature__item-wrapper">
