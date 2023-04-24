@@ -4,7 +4,7 @@ const MembershipProcess = () => {
   return (
     <div class="bd-about__inner-section pt-130 pb-90">
       <div class="container">
-        <div class="bd-about__inner-content">
+        {/* <div class="bd-about__inner-content">
           <div class="row gx-1">
             <div class="col-lg-6">
               <div class="mb-30 w-img">
@@ -17,90 +17,52 @@ const MembershipProcess = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div class="bd-section__inner-content">
-          <h3 class="bd-section__inner-title">Truly Personal Care</h3>
-          <p>
-            Must explain to you how all this mistaken idea of denouncing works
-            pleasure and praising uts pain was born and I will gives you a
-            itself completed account of the system, and sed expounds the ut
-            actual teachings of that greater sed explores truth. Denouncing
-            works pleasures and praising pains was us born and I will gives you
-            a completed ut workers accounts of the system. sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt. <br />
-            <br />
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit, sed quia non numquam eius modi tempora
-            incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-            enim ad minima veniam, quis nostrum exercitationem.
-          </p>
+          <h3 class="bd-section__inner-title">
+            This is how the DriveSphere membership works:
+          </h3>
           <div class="bd-section__inner-list mb-40">
             <ul>
               <li>
                 <span>
                   <i class="fal fa-check"></i>
                 </span>
-                Consectetur, adipisci velit, sed quia non numquam eius modi{" "}
+                Join today our FREE Membership program.
               </li>
               <li>
                 <span>
                   <i class="fal fa-check"></i>
                 </span>
-                Perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremquen
+                Choose a membership plan that suits your needs, whether you're a
+                complete beginner or looking to enhance your driving skills. No
+                credit card is required at sign-up.
               </li>
               <li>
                 <span>
                   <i class="fal fa-check"></i>
                 </span>
-                Ut enim ad minima veniam, quis nostrum exercitationem
+                Attend your FREE personalized simulator-based training session
+                with our state-of-the-art simulators and expert instruction.
               </li>
               <li>
                 <span>
                   <i class="fal fa-check"></i>
                 </span>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                Would you like to continue your training with us? Pay for your
+                preferred plan. You can always change your plan at a later
+                stage!
+              </li>
+              <li>
+                <span>
+                  <i class="fal fa-check"></i>
+                </span>
+                Benefit from flexible scheduling, reduced training costs, and
+                accelerate the process of getting your driver's license.
               </li>
             </ul>
           </div>
-          <h4 class="mb-25">4 Simple Steps</h4>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet,
-          </p>
-          <p>
-            Must explain to you how all this mistaken idea of denouncing works
-            pleasure and praising uts pain was born and I will gives you a
-            itself completed account of the system, and sed expounds the ut
-            actual teachings of that greater sed explores truth. Denouncing
-            works pleasures and praising pains was us born and I will gives you
-            a completed ut workers accounts of the system. sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
-          </p>
-          <p>
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit, sed quia non numquam eius modi tempora
-            incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-            enim ad minima veniam, quis nostrum exercitationem.
-          </p>
-          <h4 class="mb-25">We are here for elder care</h4>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet,
-          </p>
         </div>
       </div>
     </div>

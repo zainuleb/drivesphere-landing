@@ -53,3 +53,13 @@
 .bd-section__title-wrapper p{
   text-align: justify;
 }
+
+.bd-section__inner-list{
+  font-size: 18px;
+  color: rgb(11, 28, 30);
+}
+
+.bd-section__inner-list li{
+  margin: 14px 0px;
+  text-align: justify;
+}
