@@ -757,17 +757,18 @@ input[type="color"] {
 
 .bd-border-btn {
   position: relative;
-  font-size: 14px;
-  color: var(--bd-common-white);
-  font-weight: 500;
-  padding-left: 40px;
-  padding-right: 60px;
+  font-size: 16px;
+  color: var(--bd-common-black);
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 50px;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 3px;
   border: 2px solid var(--bd-common-white);
   height: 60px;
   line-height: 60px;
+  background-image: linear-gradient(to right, #f7ff00, #db36a4);
 }
 .bd-border-btn i {
   font-size: 14px;
@@ -794,7 +795,8 @@ input[type="color"] {
   right: 0;
 }
 .bd-border-btn:hover {
-  background-color: var(--bd-common-white);
+  /* background-color: var(--bd-common-white); */
+  background-image: linear-gradient(to right, #0660bd, #1fddff);;
   color: var(--bd-common-black);
   border-color: transparent;
 }

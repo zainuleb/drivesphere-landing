@@ -29,8 +29,8 @@ function App() {
       <Main />
       <OutComes />
       {/* <Feature /> */}
-      <MembershipProcess />
       <EUSection />
+      <MembershipProcess />
       <AboutUs />
       <Pricing />
       <SubscriptionForm />
