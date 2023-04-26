@@ -9,6 +9,7 @@ import AboutUs from "./component/aboutUs/AboutUs";
 import MembershipProcess from "./component/membershipProcess/MembershipProcess";
 import OutComes from "./component/outComes/OutComes";
 import WhoShouldJoin from "./component/whoShouldJoin/WhoShouldJoin";
+import Membership from "./component/membership/Membership";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -29,7 +30,7 @@ function App() {
       <OutComes />
       <EUSection />
       <WhoShouldJoin />
-      <MembershipProcess />
+      <Membership />
       <AboutUs />
       <SubscriptionForm />
       <FooterTwo />

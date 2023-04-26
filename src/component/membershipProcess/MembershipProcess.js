@@ -2,7 +2,7 @@ import React from "react";
 
 const MembershipProcess = () => {
   return (
-    <div className="bd-about__inner-section pt-90 pb-90">
+    <div className="bd-about__inner-section pt-90 pb-60">
       <div className="container">
         {/* <div className="bd-about__inner-content">
           <div className="row gx-1">
