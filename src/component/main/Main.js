@@ -2,22 +2,25 @@ import React from "react";
 
 const Main = () => {
   return (
-    <div>
+    <div className="hero">
+      <div className="logo_section">
+        <img src="assets/img/logo/logo.png" alt="logo.png" />
+      </div>
       <div className="bd-slider__section">
         <div className="bd-slider__active bd-slider__wrapper swiper-container">
           <div className="swiper-wrapper">
             <div
               className="swiper-slide bd-slider__item bd-slider__height include-bg d-flex align-items-center bg-item"
-              style={{
-                backgroundImage: "url(assets/img/extra/manDriving.png)",
-                backgroundSize: "65em 75em",
-                backgroundPosition: "36rem -9rem",
-                backgroundRepeat:
-                  "no-repeat" /* prevent the background from repeating */,
-                width: "100%" /* set the width to fill the container */,
-                height: "100%" /* set the height to fill the container */,
-                position: "relative" /* make the item position relative */,
-              }}
+              // style={{
+              //   backgroundImage: "url(assets/img/extra/manDriving.png)",
+              //   backgroundSize: "65em 75em",
+              //   backgroundPosition: "36rem -9rem",
+              //   backgroundRepeat:
+              //     "no-repeat" /* prevent the background from repeating */,
+              //   width: "100%" /* set the width to fill the container */,
+              //   height: "100%" /* set the height to fill the container */,
+              //   position: "relative" /* make the item position relative */,
+              // }}
             >
               <div className="container">
                 <div className="row">
@@ -51,7 +54,7 @@ const Main = () => {
                         data-delay=".9s"
                       >
                         <a href="about.html" className="bd-btn">
-                          Sign Up
+                          Get Free Simulator Class NOW
                           <span>
                             <i className="fa-regular fa-angle-right"></i>
                           </span>

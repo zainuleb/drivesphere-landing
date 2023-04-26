@@ -15,12 +15,12 @@
 }
 
 .mainPara {
-  color: black;
+  color: var(--bd-common-white);
   max-width: 60%;
 }
 
 .bd-slider__height {
-  min-height: 680px;
+  min-height: 590px;
 }
 
 @media only screen and (max-width: 371px) {
@@ -86,4 +86,27 @@
   font-weight: bold;
   font-size: 15px;
   color: #0e0202;
+}
+
+
+.hero {
+  background-color: rgb(8 9 9 / 94%);
+  background-image: linear-gradient(rgb(42 40 40), rgba(0, 0, 0, 0.7)), url('../public/assets/img/extra/manDriving.png');
+  background-position: 38rem -6em;
+  background-size: 55rem 60rem;
+  color: #ffffff;
+  padding: 1em;
+  text-align: left;
+  background-repeat: no-repeat;
+}
+
+.logo_section {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 5rem;
+}
+
+.logo_section img {
+  max-width: 13%;
+  flex: 0 0 auto; /* this will prevent the image from growing or shrinking */
 }

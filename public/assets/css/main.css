@@ -479,17 +479,19 @@ input[type="color"] {
 /* theme btn */
 .bd-btn {
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
+  font-style: oblique;
   letter-spacing: 3px;
   font-weight: 600;
   color: var(--bd-theme-primary);
   text-align: center;
-  padding: 12px 65px 12px 35px;
+  padding: 10px 55px 10px 27px;
   text-transform: uppercase;
   position: relative;
   border: 1px solid var(--bd-theme-primary);
   z-index: 1;
   overflow: hidden;
+  background-image: linear-gradient(#FFA500, #FFB347, #FFD700, #FFA500)
 }
 .bd-btn::after {
   content: "";
@@ -1905,7 +1907,7 @@ input[type="color"] {
 .bd-slider__subtitle {
   font-size: 28px;
   font-weight: 500;
-  color: var(--bd-common-black);
+  color: var(--bd-common-white);
   display: inline-block;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -1921,7 +1923,7 @@ input[type="color"] {
 }
 .bd-slider__title {
   font-size: 60px;
-  color: var(--bd-common-black);
+  color: var(--bd-common-white);
   text-transform: uppercase;
   line-height: 1.2;
   text-transform: uppercase;

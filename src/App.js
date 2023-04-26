@@ -5,7 +5,6 @@ import Footer from "./component/footer/Footer";
 import Main from "./component/main/Main";
 import Backtop from "./component/utils/backtop/Backtop";
 import Preloader from "./component/utils/preloader/Preloader";
-import Header from "./component/header/Header";
 import Pricing from "./component/pricing/Pricing";
 import SubscriptionForm from "./component/subscription/SubscriptionForm";
 import FooterTwo from "./component/footerTwo/FooterTwo";
@@ -28,7 +27,6 @@ function App() {
       {showPreloader && <Preloader />}
       <Backtop />
       <Main />
-      <Header />
       <Feature />
       <MembershipProcess />
       <EUSection />
