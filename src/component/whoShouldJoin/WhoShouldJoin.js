@@ -2,7 +2,7 @@ import React from "react";
 
 const WhoShouldJoin = () => {
   return (
-    <div className="bd-about__inner-section pt-130 pb-90">
+    <div className="bd-about__inner-section pt-90 pb-60">
       <div className="container">
         {/* <div className="bd-about__inner-content">
           <div className="row gx-1">
@@ -23,86 +23,90 @@ const WhoShouldJoin = () => {
           <h3 className="bd-section__inner-title">
             Who should join our DriveSphere Membership?
           </h3>
-          <p>
-            Must explain to you how all this mistaken idea of denouncing works
-            pleasure and praising uts pain was born and I will gives you a
-            itself completed account of the system, and sed expounds the ut
-            actual teachings of that greater sed explores truth. Denouncing
-            works pleasures and praising pains was us born and I will gives you
-            a completed ut workers accounts of the system. sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt. <br />
-            <br />
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit, sed quia non numquam eius modi tempora
-            incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-            enim ad minima veniam, quis nostrum exercitationem.
-          </p>
           <div className="bd-section__inner-list mb-40">
             <ul>
               <li>
                 <span>
-                  <i className="fal fa-check"></i>
+                  <i class="fas fa-arrow-right"></i>
                 </span>
-                Consectetur, adipisci velit, sed quia non numquam eius modi{" "}
+                <strong>
+                  <u>
+                    If you want to ditch the stress and anxiety of driving on
+                    busy roads.
+                  </u>
+                </strong>
               </li>
               <li>
                 <span>
-                  <i className="fal fa-check"></i>
+                  <i class="fas fa-arrow-right"></i>
                 </span>
-                Perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremquen
+                <strong>
+                  <u>
+                    If you need a flexible schedule to train your practical
+                    driving skills.
+                  </u>
+                </strong>
               </li>
               <li>
                 <span>
-                  <i className="fal fa-check"></i>
+                  <i class="fas fa-arrow-right"></i>
                 </span>
-                Ut enim ad minima veniam, quis nostrum exercitationem
+                <strong>
+                  <u>
+                    If you're tired and bored of traditional driving classes.
+                  </u>
+                </strong>
               </li>
               <li>
                 <span>
-                  <i className="fal fa-check"></i>
+                  <i class="fas fa-arrow-right"></i>
                 </span>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                <strong>
+                  <u>
+                    If you want to get your driving license as fast as possible.
+                  </u>
+                </strong>
               </li>
             </ul>
           </div>
-          <h4 className="mb-25">4 Simple Steps</h4>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet,
+            Our DriveSphere membership has got you covered with a totally
+            customized training program designed just for you.
           </p>
           <p>
-            Must explain to you how all this mistaken idea of denouncing works
-            pleasure and praising uts pain was born and I will gives you a
-            itself completed account of the system, and sed expounds the ut
-            actual teachings of that greater sed explores truth. Denouncing
-            works pleasures and praising pains was us born and I will gives you
-            a completed ut workers accounts of the system. sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
+            You'll tackle real-life driving scenarios like snowy roads and
+            mountainous terrain, heavy traffic, and general distractions to
+            master your driving skills in a fun and engaging way.
           </p>
           <p>
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit, sed quia non numquam eius modi tempora
-            incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-            enim ad minima veniam, quis nostrum exercitationem.
+            The best part?
+            <strong>
+              <u>Our membership program is absolutely FREE </u>{" "}
+            </strong>
+            and comes with your{" "}
+            <strong>
+              <u>first simulator lesson for FREE</u>
+            </strong>
+            .
           </p>
-          <h4 className="mb-25">We are here for elder care</h4>
+          <p className="bold_para">
+            <strong>
+              <u>" No credit card needed, and no hidden fees or charges."</u>
+            </strong>
+          </p>
+
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet,
+            You won’t have to beg your parents or friends to give you driving
+            lessons. We are here for you.
           </p>
+        </div>
+        <div className="bd-section__btn-wrapper pt-30">
+          <a href="about.html" className="bd-btn">
+            Subscribe to get your first class for FREE
+            <span>
+              <i className="fa-regular fa-angle-right"></i>
+            </span>
+          </a>
         </div>
       </div>
     </div>
