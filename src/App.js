@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
 import EUSection from "./component/euSection/EUSection";
-import Footer from "./component/footer/Footer";
 import Main from "./component/main/Main";
 import Backtop from "./component/utils/backtop/Backtop";
 import Preloader from "./component/utils/preloader/Preloader";
-import Pricing from "./component/pricing/Pricing";
 import SubscriptionForm from "./component/subscription/SubscriptionForm";
 import FooterTwo from "./component/footerTwo/FooterTwo";
 import AboutUs from "./component/aboutUs/AboutUs";
 import MembershipProcess from "./component/membershipProcess/MembershipProcess";
 import OutComes from "./component/outComes/OutComes";
+import WhoShouldJoin from "./component/whoShouldJoin/WhoShouldJoin";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -28,13 +27,11 @@ function App() {
       <Backtop />
       <Main />
       <OutComes />
-      {/* <Feature /> */}
       <EUSection />
+      <WhoShouldJoin />
       <MembershipProcess />
       <AboutUs />
-      <Pricing />
       <SubscriptionForm />
-      <Footer />
       <FooterTwo />
     </div>
   );
