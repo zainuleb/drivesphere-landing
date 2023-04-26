@@ -16,7 +16,8 @@
 
 .mainPara {
   color: var(--bd-common-white);
-  max-width: 60%;
+  max-width: 66%;
+  text-align: justify;
 }
 
 .bd-slider__height {

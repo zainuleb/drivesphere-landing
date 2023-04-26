@@ -45,8 +45,9 @@ const Main = () => {
                         data-animation="fadeInUp"
                         data-delay=".7s"
                       >
-                        Join our EU-Complaint training program and prepare for
-                        your EU Digital Driver License Safer and Faster
+                        Enroll in our EU training program to prepare for your EU
+                        Digital Driver's License and achieve a safer and faster
+                        driving experience.
                       </p>
                       <div
                         className="bd-slider__btn"

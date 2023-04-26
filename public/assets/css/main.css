@@ -1945,7 +1945,7 @@ input[type="color"] {
   }
 }
 .bd-slider__content p {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 45px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px),

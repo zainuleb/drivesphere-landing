@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import EUSection from "./component/euSection/EUSection";
-import Feature from "./component/features/Feature";
 import Footer from "./component/footer/Footer";
 import Main from "./component/main/Main";
 import Backtop from "./component/utils/backtop/Backtop";
@@ -10,6 +9,7 @@ import SubscriptionForm from "./component/subscription/SubscriptionForm";
 import FooterTwo from "./component/footerTwo/FooterTwo";
 import AboutUs from "./component/aboutUs/AboutUs";
 import MembershipProcess from "./component/membershipProcess/MembershipProcess";
+import OutComes from "./component/outComes/OutComes";
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true);
@@ -27,7 +27,8 @@ function App() {
       {showPreloader && <Preloader />}
       <Backtop />
       <Main />
-      <Feature />
+      <OutComes />
+      {/* <Feature /> */}
       <MembershipProcess />
       <EUSection />
       <AboutUs />
