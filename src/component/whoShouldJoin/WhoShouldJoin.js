@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WhoShouldJoin = () => {
   return (
@@ -101,12 +102,12 @@ const WhoShouldJoin = () => {
           </p>
         </div>
         <div className="bd-section__btn-wrapper pt-30">
-          <a href="about.html" className="bd-btn">
+          <Link to="/signUp" className="bd-btn">
             Subscribe to get your first class for FREE
             <span>
               <i className="fa-regular fa-angle-right"></i>
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

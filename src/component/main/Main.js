@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -51,12 +52,12 @@ const Main = () => {
                   data-animation="fadeInUp"
                   data-delay=".9s"
                 >
-                  <a href="about.html" className="bd-btn">
+                  <Link to="/signUp" className="bd-btn">
                     Get Free Simulator Class NOW
                     <span>
                       <i className="fa-regular fa-angle-right"></i>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

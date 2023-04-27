@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const EUSection = () => {
   return (
@@ -68,11 +69,11 @@ const EUSection = () => {
                 className="euroComLogo"
                 alt="european comission logo"
               />
-              <a href="contact.html" className="bd-border-btn">
+              <Link to="/signUp" className="bd-border-btn">
                 Subscribe for FREE
                 <i className="fas fa-angle-right"></i>
                 <i className="fas fa-angle-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

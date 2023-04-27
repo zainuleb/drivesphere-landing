@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,13 +10,13 @@ const Header = () => {
             <div className="row align-items-center">
               <div className="col-lg-2 col-md-6 col-6 mx-auto">
                 <div className="logo">
-                  <a href="index.html">
+                  <Link to="/" className="header-logo-link">
                     <img
                       src="assets/img/logo/logo.png"
                       alt="logo"
                       classNameName="header-logo"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

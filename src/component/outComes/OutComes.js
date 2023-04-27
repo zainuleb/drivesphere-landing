@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const OutComes = () => {
   return (
@@ -8,9 +9,6 @@ const OutComes = () => {
           <div className="col-lg-8 wow fadeInUp">
             <div className="bd-about-2__text ml-70 mb-30">
               <div className="bd-section__title-wrapper">
-                {/* <span className="bd-section__subtitle bd-section__subtitle-lg mb-10">
-                  After Training at Our Driving Center, You Will:
-                </span> */}
                 <h3 className="bd-section__title bd-section__title-lg mb-25">
                   After Training at Our Driving Center, You Will:
                 </h3>
@@ -69,12 +67,12 @@ const OutComes = () => {
                   </ul>
                 </div>
                 <div className="bd-section__btn-wrapper pt-30">
-                  <a href="about.html" className="bd-btn">
+                  <Link to="/signUp" className="bd-btn">
                     Subscribe to get your first class for FREE
                     <span>
                       <i className="fa-regular fa-angle-right"></i>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
