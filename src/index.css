@@ -380,7 +380,16 @@
 }
 
 @media screen and (max-width: 540px) {
+  .bd-about__img{
+    max-width: 90%;
+    margin: 0em auto 3em auto;
+  }
+  .logo_section img{
+    max-width: 40%;
+    margin: 0 auto;
+  }
   .plans .plan .plan-content img {
+    display: none;
     margin-bottom: 20px;
     height: 56px;
     -webkit-transition: height 0.4s;
@@ -398,7 +407,7 @@
   }
 
   .plans .plan .plan-content {
-    padding: 20px;
+    padding: 6px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
