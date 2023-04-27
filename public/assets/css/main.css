@@ -491,7 +491,7 @@ input[type="color"] {
   border: 1px solid var(--bd-theme-primary);
   z-index: 1;
   overflow: hidden;
-  background-image: linear-gradient(#FFA500, #FFB347, #FFD700, #FFA500)
+  background-image: linear-gradient(#ffa500, #ffb347, #ffd700, #ffa500);
 }
 .bd-btn::after {
   content: "";
@@ -796,7 +796,7 @@ input[type="color"] {
 }
 .bd-border-btn:hover {
   /* background-color: var(--bd-common-white); */
-  background-image: linear-gradient(to right, #0660bd, #1fddff);;
+  background-image: linear-gradient(to right, #0660bd, #1fddff);
   color: var(--bd-common-black);
   border-color: transparent;
 }
@@ -2943,7 +2943,7 @@ input[type="color"] {
 .postbox__comment-form {
   margin-bottom: 20px;
   padding: 40px 30px;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   background: var(--bd-common-white);
 }
 @media (max-width: 575px),
@@ -2985,7 +2985,7 @@ input[type="color"] {
 }
 
 .postbox__comment-input input,
-.postbox__comment-input select{
+.postbox__comment-input select {
   height: 55px;
   padding: 0 20px;
   width: 100%;

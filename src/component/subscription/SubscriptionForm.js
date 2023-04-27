@@ -1,6 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 
 const SubscriptionForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [city, setCity] = useState("");
+  const [selectedCity, setSelectedCity] = useState("Berlin");
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleCityChange = (e) => {
+    setCity(e.target.value);
+  };
+
+  const handleSelectedCityChange = (e) => {
+    setSelectedCity(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const formData = new FormData();
+    formData.append("entry.1122186267", name); // Name field code
+    formData.append("entry.1918902053", email); // Email field code
+    formData.append("entry.289865807", selectedCity); // City field code
+    formData.append("entry.281628252", city); // Mention your City field code
+
+    fetch(
+      "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
+      {
+        method: "POST",
+        body: formData,
+      }
+    )
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
   return (
     <div className="bd-contact__section pt-120 pb-90">
       <div className="container">
@@ -8,10 +53,7 @@ const SubscriptionForm = () => {
           <div className="col-lg-8">
             <div className="postbox__comment-form mb-30">
               <h3 className="postbox__comment-form-title">Sign Up Now</h3>
-              <form
-                method="POST"
-                action="https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse"
-              >
+              <form onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
@@ -19,6 +61,9 @@ const SubscriptionForm = () => {
                         name="entry.1122186267"
                         type="text"
                         placeholder="Your Name"
+                        value={name}
+                        onChange={handleNameChange}
+                        required
                       />
                     </div>
                   </div>
@@ -28,17 +73,20 @@ const SubscriptionForm = () => {
                         name="entry.1918902053"
                         type="email"
                         placeholder="Your Email"
+                        value={email}
+                        onChange={handleEmailChange}
+                        required
                       />
                     </div>
                   </div>
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
-                      <select>
-                        <option value="" disabled selected>
-                          Choose your City ...
-                        </option>
-                        <option value="Barcelona">Barcelona</option>
+                      <select
+                        value={selectedCity}
+                        onChange={handleSelectedCityChange}
+                      >
                         <option value="Berlin">Berlin</option>
+                        <option value="Barcelona">Barcelona</option>
                         <option value="Budapest">Budapest</option>
                         <option value="Brussels">Brussels</option>
                         <option value="Bucharest">Bucharest</option>
@@ -57,13 +105,16 @@ const SubscriptionForm = () => {
                       </select>
                     </div>
                   </div>
-
+                  <div className="col-xxl-6 col-xl-6 col-lg-6"></div>
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
                       <input
                         type="text"
                         name="entry.289865807"
-                        placeholder="Mention your city if not in List"
+                        placeholder="Mention your City"
+                        value={city}
+                        onChange={handleCityChange}
+                        required
                       />
                     </div>
                   </div>
