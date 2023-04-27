@@ -20,7 +20,7 @@ const Membership = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5">
               <div className="bd-portfolio__img w-img mr-70 mb-60 wow fadeInUp">
-                <img src="assets/img/extra/2968290.jpg" alt="image" />
+                <img src="assets/img/extra/2968290.jpg" alt="mem1.jpg" />
               </div>
             </div>
             <div className="col-lg-5">
@@ -60,7 +60,7 @@ const Membership = () => {
               <div className="bd-portfolio__img w-img ml-50 mb-60 wow fadeInUp">
                 <img
                   src="assets/img/extra/Driving-illustration.png"
-                  alt="image"
+                  alt="mem2.jpg"
                 />
               </div>
             </div>
@@ -68,7 +68,7 @@ const Membership = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5">
               <div className="bd-portfolio__img w-img mr-70 mb-60 wow fadeInUp">
-                <img src="assets/img/extra/4170025.jpg" alt="image" />
+                <img src="assets/img/extra/4170025.jpg" alt="mem3.jpg" />
               </div>
             </div>
             <div className="col-lg-5">
@@ -103,7 +103,7 @@ const Membership = () => {
               </div>
               <div className="col-lg-5 order-1 order-lg-2">
                 <div className="bd-portfolio__img w-img ml-50 mb-60 wow fadeInUp">
-                  <img src="assets/img/extra/17555.jpg" alt="image" />
+                  <img src="assets/img/extra/17555.jpg" alt="mem4.jpg" />
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Membership = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5">
               <div className="bd-portfolio__img w-img mr-70 mb-60 wow fadeInUp">
-                <img src="assets/img/extra/offer.png" alt="image" />
+                <img src="assets/img/extra/offer.png" alt="mem5.jpg" />
               </div>
             </div>
             <div className="col-lg-5">
