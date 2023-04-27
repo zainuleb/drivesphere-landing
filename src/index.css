@@ -174,7 +174,7 @@
 
 .bd-btn-member {
   font-size: 18px;
-font-weight: 600;
+  font-weight: 600;
   background-image: linear-gradient(
     to right,
     #ff8008 0%,
@@ -197,4 +197,8 @@ font-weight: 600;
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+
+.about_us_header img {
+  max-width: 20%;
 }
