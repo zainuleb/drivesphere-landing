@@ -6,6 +6,7 @@ const SubscriptionForm = () => {
   const [email, setEmail] = useState("");
   const [city, setCity] = useState("");
   const [selectedCity, setSelectedCity] = useState("Berlin");
+  const [selectedPlan, setSelectedPlan] = useState("");
   const navigate = useNavigate();
 
   const handleNameChange = (e) => {
@@ -24,6 +25,11 @@ const SubscriptionForm = () => {
     setSelectedCity(e.target.value);
   };
 
+  const handlePlanChange = (e) => {
+    console.log(e.target.id);
+    setSelectedPlan(e.target.id);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -32,6 +38,7 @@ const SubscriptionForm = () => {
     formData.append("entry.1918902053", email); // Email field code
     formData.append("entry.289865807", selectedCity); // City field code
     formData.append("entry.281628252", city); // Mention your City field code
+    formData.append("entry.2049307578", selectedPlan); // Pricing Plan field code
 
     fetch(
       "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
@@ -98,7 +105,6 @@ const SubscriptionForm = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="col-xxl-6 col-xl-6 col-lg-6"></div>
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
                       <input
@@ -113,9 +119,153 @@ const SubscriptionForm = () => {
                     </div>
                   </div>
 
-                  <div className="col-xxl-12">
-                    <div className="postbox__comment-btn">
-                      <button type="submit" className="bd-btn">
+                  <div className="col-xxl-12 col-xl-12 col-lg-12">
+                    <div className="plans">
+                      <div className="title">Choose a pricing plan</div>
+                      <label class="plan basic-plan" for="earlyDrive">
+                        <input
+                          type="radio"
+                          name="plan"
+                          id="earlyDrive"
+                          defaultChecked
+                          value="EarlyDrive (99€)"
+                          onChange={handlePlanChange}
+                        />
+                        <div class="plan-content">
+                          <img
+                            loading="lazy"
+                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/life-saver-img.svg"
+                            alt=""
+                          />
+                          <div class="plan-details">
+                            <span>EarlyDrive (99€)</span>
+                            <p>
+                              Includes 4 simulator classes per month, available
+                              for morning sessions only.
+                            </p>
+                          </div>
+                        </div>
+                      </label>
+                      <label class="plan complete-plan" for="secureDrive">
+                        <input
+                          type="radio"
+                          id="secureDrive"
+                          name="plan"
+                          value="SecureDrive (140€)"
+                          onChange={handlePlanChange}
+                        />
+                        <div class="plan-content">
+                          <img
+                            loading="lazy"
+                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                            alt=""
+                          />
+                          <div class="plan-details">
+                            <span>SecureDrive (140€)</span>
+                            <p>
+                              Includes 4 simulator classes per month. Any day.
+                              Anytime.
+                            </p>
+                          </div>
+                        </div>
+                      </label>
+                      <label class="plan complete-plan" for="morningDrive">
+                        <input
+                          type="radio"
+                          id="morningDrive"
+                          name="plan"
+                          value="MorningDrive (140€)"
+                          onChange={handlePlanChange}
+                        />
+                        <div class="plan-content">
+                          <img
+                            loading="lazy"
+                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                            alt=""
+                          />
+                          <div class="plan-details">
+                            <span>MorningDrive (140€)</span>
+                            <p>
+                              Includes 4 simulator classes per month, available
+                              for morning sessions only.
+                            </p>
+                          </div>
+                        </div>
+                      </label>
+                      <label class="plan complete-plan" for="smartDrive">
+                        <input
+                          type="radio"
+                          id="smartDrive"
+                          name="plan"
+                          value="SmartDrive (190€)"
+                          onChange={handlePlanChange}
+                        />
+                        <div class="plan-content">
+                          <img
+                            loading="lazy"
+                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                            alt=""
+                          />
+                          <div class="plan-details">
+                            <span>SmartDrive (190€)</span>
+                            <p>
+                              Includes 8 simulator classes per month. Any day.
+                              Anytime.
+                            </p>
+                          </div>
+                        </div>
+                      </label>
+                      <label class="plan complete-plan" for="proDrive">
+                        <input
+                          type="radio"
+                          id="proDrive"
+                          name="plan"
+                          value="ProDrive (290€)"
+                          onChange={handlePlanChange}
+                        />
+                        <div class="plan-content">
+                          <img
+                            loading="lazy"
+                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                            alt=""
+                          />
+                          <div class="plan-details">
+                            <span>ProDrive (290€)</span>
+                            <p>
+                              Includes 12 simulator classes per month. Any day.
+                              Anytime.
+                            </p>
+                          </div>
+                        </div>
+                      </label>
+                      <label class="plan complete-plan" for="ultraDrive">
+                        <input
+                          type="radio"
+                          id="ultraDrive"
+                          name="plan"
+                          onChange={handlePlanChange}
+                        />
+                        <div class="plan-content">
+                          <img
+                            loading="lazy"
+                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
+                            alt=""
+                          />
+                          <div class="plan-details">
+                            <span>UltraDrive (250€)</span>
+                            <p>
+                              Includes 12 simulator classes per month, available
+                              for morning, afternoon, and evening sessions.
+                            </p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="col-xxl-12 mt-30">
+                    <div className="postbox__comment-btn d-flex justify-content-end">
+                      <button type="submit" className="bd-btn float-right">
                         Sign Up
                       </button>
                     </div>
