@@ -385,8 +385,8 @@
     margin: 0em auto 3em auto;
   }
   .logo_section img{
-    max-width: 40%;
-    margin: 0 auto;
+    max-width: 50%;
+    margin: 10px auto;
   }
   .plans .plan .plan-content img {
     display: none;
