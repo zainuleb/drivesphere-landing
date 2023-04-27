@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const SubscriptionForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [city, setCity] = useState("");
   const [selectedCity, setSelectedCity] = useState("Berlin");
+  const navigate = useNavigate();
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -35,11 +37,16 @@ const SubscriptionForm = () => {
       "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
       {
         method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json",
+        },
         body: formData,
       }
     )
-      .then((response) => {
-        console.log(response);
+      .then(() => {
+        navigate("/success");
       })
       .catch((error) => {
         console.log(error);
@@ -63,6 +70,7 @@ const SubscriptionForm = () => {
                         placeholder="Your Name"
                         value={name}
                         onChange={handleNameChange}
+                        pattern="[A-Za-z ]+"
                         required
                       />
                     </div>
@@ -75,6 +83,7 @@ const SubscriptionForm = () => {
                         placeholder="Your Email"
                         value={email}
                         onChange={handleEmailChange}
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                         required
                       />
                     </div>
@@ -86,22 +95,6 @@ const SubscriptionForm = () => {
                         onChange={handleSelectedCityChange}
                       >
                         <option value="Berlin">Berlin</option>
-                        <option value="Barcelona">Barcelona</option>
-                        <option value="Budapest">Budapest</option>
-                        <option value="Brussels">Brussels</option>
-                        <option value="Bucharest">Bucharest</option>
-                        <option value="Hamburg">Hamburg</option>
-                        <option value="London">London</option>
-                        <option value="Madrid">Madrid</option>
-                        <option value="Milan">Milan</option>
-                        <option value="Munich">Munich</option>
-                        <option value="Paris">Paris</option>
-                        <option value="Prague">Prague</option>
-                        <option value="Rome">Rome</option>
-                        <option value="Sofia">Sofia</option>
-                        <option value="Stockholm">Stockholm</option>
-                        <option value="Vienna">Vienna</option>
-                        <option value="Warsaw">Warsaw</option>
                       </select>
                     </div>
                   </div>
@@ -114,6 +107,7 @@ const SubscriptionForm = () => {
                         placeholder="Mention your City"
                         value={city}
                         onChange={handleCityChange}
+                        pattern="[A-Za-z ]+"
                         required
                       />
                     </div>
