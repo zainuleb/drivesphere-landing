@@ -58,14 +58,17 @@ const Membership = () => {
             </div>
             <div className="col-lg-5 order-1 order-lg-2">
               <div className="bd-portfolio__img w-img ml-50 mb-60 wow fadeInUp">
-                <img src="assets/img/portfolio/portfolio-2.jpg" alt="image" />
+                <img
+                  src="assets/img/extra/Driving-illustration.png"
+                  alt="image"
+                />
               </div>
             </div>
           </div>
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5">
               <div className="bd-portfolio__img w-img mr-70 mb-60 wow fadeInUp">
-                <img src="assets/img/portfolio/portfolio-1.jpg" alt="image" />
+                <img src="assets/img/extra/4170025.jpg" alt="image" />
               </div>
             </div>
             <div className="col-lg-5">
@@ -100,7 +103,7 @@ const Membership = () => {
               </div>
               <div className="col-lg-5 order-1 order-lg-2">
                 <div className="bd-portfolio__img w-img ml-50 mb-60 wow fadeInUp">
-                  <img src="assets/img/portfolio/portfolio-2.jpg" alt="image" />
+                  <img src="assets/img/extra/17555.jpg" alt="image" />
                 </div>
               </div>
             </div>
@@ -108,7 +111,7 @@ const Membership = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5">
               <div className="bd-portfolio__img w-img mr-70 mb-60 wow fadeInUp">
-                <img src="assets/img/portfolio/portfolio-1.jpg" alt="image" />
+                <img src="assets/img/extra/offer.png" alt="image" />
               </div>
             </div>
             <div className="col-lg-5">

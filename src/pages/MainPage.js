@@ -23,7 +23,6 @@ const MainPage = () => {
   }, []);
   return (
     <div>
-      {" "}
       {showPreloader && <Preloader />}
       <Backtop />
       <Main />

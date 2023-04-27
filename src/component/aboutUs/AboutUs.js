@@ -7,7 +7,10 @@ const AboutUs = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="bd-about__img w-img mr-70 mb-30 wow fadeInRight">
-              <img src="assets/img/extra/aboutUs.jpg" alt="" />
+              <img
+                src="assets/img/extra/pexels-yoss-traore-2454510.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div className="col-lg-6">

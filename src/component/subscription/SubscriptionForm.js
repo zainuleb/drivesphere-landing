@@ -134,8 +134,8 @@ const SubscriptionForm = () => {
                         <div class="plan-content">
                           <img
                             loading="lazy"
-                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/life-saver-img.svg"
-                            alt=""
+                            src="assets/img/extra/car (3).png"
+                            alt="car.png"
                           />
                           <div class="plan-details">
                             <span>EarlyDrive (99€)</span>
@@ -157,8 +157,8 @@ const SubscriptionForm = () => {
                         <div class="plan-content">
                           <img
                             loading="lazy"
-                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
-                            alt=""
+                            src="assets/img/extra/smart-car.png"
+                            alt="car.png"
                           />
                           <div class="plan-details">
                             <span>SecureDrive (140€)</span>
@@ -180,8 +180,8 @@ const SubscriptionForm = () => {
                         <div class="plan-content">
                           <img
                             loading="lazy"
-                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
-                            alt=""
+                            src="assets/img/extra/car (2).png"
+                            alt="car.png"
                           />
                           <div class="plan-details">
                             <span>MorningDrive (140€)</span>
@@ -203,8 +203,8 @@ const SubscriptionForm = () => {
                         <div class="plan-content">
                           <img
                             loading="lazy"
-                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
-                            alt=""
+                            src="assets/img/extra/electric-car.png"
+                            alt="car.png"
                           />
                           <div class="plan-details">
                             <span>SmartDrive (190€)</span>
@@ -226,8 +226,8 @@ const SubscriptionForm = () => {
                         <div class="plan-content">
                           <img
                             loading="lazy"
-                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
-                            alt=""
+                            src="assets/img/extra/car.png"
+                            alt="car.png"
                           />
                           <div class="plan-details">
                             <span>ProDrive (290€)</span>
@@ -248,8 +248,8 @@ const SubscriptionForm = () => {
                         <div class="plan-content">
                           <img
                             loading="lazy"
-                            src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/potted-plant-img.svg"
-                            alt=""
+                            src="assets/img/extra/racing-car.png"
+                            alt="car.png"
                           />
                           <div class="plan-details">
                             <span>UltraDrive (250€)</span>
