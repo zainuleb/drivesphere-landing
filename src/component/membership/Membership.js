@@ -20,7 +20,7 @@ const Membership = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5">
               <div className="bd-portfolio__img w-img mr-70 mb-60 wow fadeInUp">
-                <img src="assets/img/portfolio/portfolio-1.jpg" alt="image" />
+                <img src="assets/img/extra/2968290.jpg" alt="image" />
               </div>
             </div>
             <div className="col-lg-5">

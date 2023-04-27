@@ -22,31 +22,17 @@ const FooterTwo = () => {
 
                   <div className="bd-footer-widget__content">
                     <p>
-                      The driving simulator training provided by our center is
-                      for educational and training purposes only. The
-                      simulations and scenarios presented in our training
-                      program are designed to simulate real-life driving
-                      situations and to help drivers improve their driving
-                      skills.
-                      <br />
-                      Please note that the use of our driving simulators does
-                      not replace the need for on-road driving experience as a
-                      equirement for obtaining a driver's license. We strongly
-                      recommend that all drivers seeking to obtain or improve
-                      their driving skills to also consult with a certified
-                      driving instructor for proper guidance and training.
-                      <br />
-                      While our training program has been designed and developed
-                      based on research and data, we cannot guarantee specific
-                      results or outcomes. The effectiveness of the training
-                      program may vary depending on individual driver skill
-                      levels and other factors beyond our control. By using our
-                      driving simulator training program, you agree that we
-                      shall not be liable for any direct, indirect, incidental,
-                      or consequential damages or losses that may arise from
-                      your use of our service.
+                      Our driving simulator training is for educational and
+                      training purposes only, designed to simulate real-life
+                      driving scenarios and improve drivers' skills. Results may
+                      vary based on individual skill levels and other factors.
+                      Our training does not replace on-road driving experience
+                      required to obtain a driver's license. We recommend
+                      consulting certified instructors for proper guidance. By
+                      using our program, you agree we are not liable for any
+                      damages or losses arising from your use of our service.
                     </p>
-                    <div className="bd-footer-widget__social">
+                    {/* <div className="bd-footer-widget__social">
                       <span>
                         <a href="/#">
                           <i className="fab fa-facebook-f"></i>
@@ -67,7 +53,7 @@ const FooterTwo = () => {
                           <i className="fab fa-linkedin"></i>
                         </a>
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
