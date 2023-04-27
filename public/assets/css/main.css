@@ -1301,7 +1301,7 @@ input[type="color"] {
 }
 .breadcrumb__title {
   font-size: 48px;
-  color: var(--bd-common-black);
+  color: var(--bd-common-white);
   letter-spacing: 4px;
   text-transform: uppercase;
 }

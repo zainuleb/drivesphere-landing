@@ -198,3 +198,20 @@
 .about_us_header img {
   max-width: 20%;
 }
+
+
+.breadcrumb__section {
+  background-image: linear-gradient(rgb(42 40 40), rgba(0, 0, 0, 0.7)), url('../public/assets/img/extra/successBackground.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay_success {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
