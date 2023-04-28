@@ -190,7 +190,7 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div class="plan-details">
-                            <span>MorningDrive (140€)</span>
+                            <span>MorningDrive (189€)</span>
                             <p>
                               Includes 4 simulator classes per month, available
                               for morning sessions only.
@@ -213,7 +213,7 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div class="plan-details">
-                            <span>SmartDrive (190€)</span>
+                            <span>SmartDrive (264€)</span>
                             <p>
                               Includes 8 simulator classes per month. Any day.
                               Anytime.
@@ -236,7 +236,7 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div class="plan-details">
-                            <span>ProDrive (290€)</span>
+                            <span>ProDrive (372€)</span>
                             <p>
                               Includes 12 simulator classes per month. Any day.
                               Anytime.
@@ -258,7 +258,7 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div class="plan-details">
-                            <span>UltraDrive (250€)</span>
+                            <span>UltraDrive (1.392€)</span>
                             <p>
                               Includes 12 simulator classes per month, available
                               for morning, afternoon, and evening sessions.
