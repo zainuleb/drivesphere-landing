@@ -8,7 +8,7 @@ const AboutUs = () => {
           <div className="col-lg-6">
             <div className="bd-about__img w-img mr-70 mb-30 wow fadeInRight">
               <img
-                src="assets/img/extra/pexels-yoss-traore-2454510.jpg"
+                src="assets/img/extra/pexels-ulrik-skare-4481851.jpg"
                 alt=""
               />
             </div>

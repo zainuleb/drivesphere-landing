@@ -79,21 +79,10 @@ const OutComes = () => {
           </div>
 
           <div className="col-lg-4 wow fadeInUp">
-            <div className="row">
-              <div className="col-lg-6 col-md-6">
+            <div className="row justify-content-end">
+              <div className="col-lg-10 col-md-6">
                 <div className="bd-about-2__img w-img mb-30">
                   <img src="assets/img/extra/image2.jpg" alt="out1.png" />
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-6">
-                <div className="bd-about-2__img w-img mb-30">
-                  <img
-                    src="assets/img/extra/successBackground1.jpg"
-                    alt="out2.png"
-                  />
-                </div>
-                <div className="bd-about-2__img w-img mb-30">
-                  <img src="assets/img/extra/download (1).jpg" alt="out3.png" />
                 </div>
               </div>
             </div>

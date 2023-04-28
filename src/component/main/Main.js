@@ -43,9 +43,8 @@ const Main = () => {
                   data-animation="fadeInUp"
                   data-delay=".7s"
                 >
-                  Enroll in our EU training program to prepare for your EU
-                  Digital Driver's License and achieve a safer and faster
-                  driving experience.
+                  Get ready for your Driving License with our EU-approved
+                  driving simulator training program
                 </p>
                 <div
                   className="bd-slider__btn"
@@ -53,7 +52,7 @@ const Main = () => {
                   data-delay=".9s"
                 >
                   <Link to="/signUp" className="bd-btn">
-                    Get Free Simulator Class NOW
+                    Subscribe to get your first class for FREE
                     <span>
                       <i className="fa-regular fa-angle-right"></i>
                     </span>

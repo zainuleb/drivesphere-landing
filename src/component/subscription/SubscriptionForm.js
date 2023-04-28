@@ -101,7 +101,13 @@ const SubscriptionForm = () => {
                         value={selectedCity}
                         onChange={handleSelectedCityChange}
                       >
-                        <option value="Berlin">Berlin</option>
+                        <option value="Berlin – Charlottenburg">
+                          Berlin – Charlottenburg
+                        </option>
+                        <option value="Berlin – Mitte ">Berlin – Mitte </option>
+                        <option value="Berlin – Friedrichshain">
+                          Berlin – Friedrichshain
+                        </option>
                       </select>
                     </div>
                   </div>
@@ -278,16 +284,16 @@ const SubscriptionForm = () => {
             <div className="pt-inner-sidebar theme-bg mb-30">
               <div className="tp-pt__inmner-step mb-30">
                 <h4>Address</h4>
-                <span>-------------------</span>
+                <span>Markgrafenstraße 56, 10117 Mitte</span>
               </div>
-              <div className="tp-pt__inmner-step mb-30">
+              {/* <div className="tp-pt__inmner-step mb-30">
                 <h4>Call</h4>
                 <span>------------------</span>
-              </div>
-              <div className="tp-pt__inmner-step mb-30">
+              </div> */}
+              {/* <div className="tp-pt__inmner-step mb-30">
                 <h4>Email us</h4>
                 <span>---------------------</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
