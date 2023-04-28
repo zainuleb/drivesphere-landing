@@ -260,8 +260,8 @@ const SubscriptionForm = () => {
                           <div class="plan-details">
                             <span>UltraDrive (1.392€)</span>
                             <p>
-                              Includes 12 simulator classes per month, available
-                              for morning, afternoon, and evening sessions.
+                              Includes unlimited simulator classes per month.
+                              Any day. Anytime.
                             </p>
                           </div>
                         </div>
