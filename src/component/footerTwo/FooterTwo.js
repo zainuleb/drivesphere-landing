@@ -10,13 +10,7 @@ const FooterTwo = () => {
               <div className="col-lg-10">
                 <div className="bd-footer-widget footer-col-1">
                   <div className="bd-footer-widget__title">
-                    <a href="index.html">
-                      <img
-                        src="assets/img/logo/logo.png"
-                        alt=""
-                        width="120px"
-                      />
-                    </a>
+                    <img src="assets/img/logo/logo.png" alt="" width="120px" />
                   </div>
                   <h5>Disclaimer</h5>
 
@@ -61,7 +55,7 @@ const FooterTwo = () => {
           </div>
           <div className="bd-footer__copyright bd-border-top pt-40 pb-40">
             <span>
-              All rights reserved © 2023 <a href="index.html">DriveSphere</a>
+              All rights reserved © 2023 <a href="#/">DriveSphere</a>
             </span>
           </div>
         </div>
