@@ -82,15 +82,18 @@
 }
 
 .hero {
-  background-color: rgb(8 9 9 / 94%);
-  background-image: linear-gradient(rgb(42 40 40), rgba(0, 0, 0, 0.7)),
-    url("../public/assets/img/extra/manDriving.png");
+  background-color: var(--bd-grey-1);
+  background-image: url("../public/assets/img/extra/manDriving.png");
   background-position: 38rem -6em;
   background-size: 55rem 60rem;
   color: #ffffff;
   padding: 1em;
   text-align: left;
   background-repeat: no-repeat;
+}
+
+.blackhighlight{
+  background-color: #000000;
 }
 
 .logo_section {
@@ -194,9 +197,9 @@
   max-width: 20%;
 }
 
-
 .breadcrumb__section {
-  background-image: linear-gradient(rgb(42 40 40), rgba(0, 0, 0, 0.7)), url('../public/assets/img/extra/successBackground.jpg');
+  background-image: linear-gradient(rgb(42 40 40), rgba(0, 0, 0, 0.7)),
+    url("../public/assets/img/extra/successBackground.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -210,21 +213,6 @@
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .plans {
   display: -webkit-box;
@@ -375,11 +363,11 @@
 }
 
 @media screen and (max-width: 540px) {
-  .bd-about__img{
+  .bd-about__img {
     max-width: 90%;
     margin: 0em auto 3em auto;
   }
-  .logo_section img{
+  .logo_section img {
     max-width: 50%;
     margin: 10px auto;
   }

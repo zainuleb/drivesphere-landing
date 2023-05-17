@@ -25,19 +25,22 @@ const Main = () => {
             <div className="col-xxl-6 col-xl-8 col-lg-8 col-md-10">
               <div className="bd-slider__content">
                 <span
-                  className="bd-slider__subtitle"
+                  className="bd-slider__subtitle blackhighlight"
                   data-animation="fadeInUp"
                   data-delay=".3s"
                 >
                   Confident Drivers
                 </span>
                 <h5
-                  className="bd-slider__title"
+                  className="bd-slider__title "
                   data-animation="fadeInUp"
                   data-delay=".5s"
                 >
-                  Trained by Innovative, Data Driven Technologies
+                  <span className="blackhighlight">
+                    Trained by Innovative, Data Driven Technologies
+                  </span>
                 </h5>
+
                 <p
                   className="mainPara"
                   data-animation="fadeInUp"
