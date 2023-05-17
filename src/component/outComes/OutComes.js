@@ -81,7 +81,7 @@ const OutComes = () => {
 
           <div className="col-lg-4 wow fadeInUp">
             <div className="row justify-content-end">
-              <div className="col-lg-10 col-md-6">
+              <div className="col-lg-10 col-md-12">
                 <div className="bd-about-2__img w-img mb-30">
                   <img src="assets/img/extra/image2.jpeg" alt="out1.png" />
                 </div>
