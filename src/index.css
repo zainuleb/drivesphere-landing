@@ -131,6 +131,22 @@
   .bd-section__inner-list ul li {
     text-align: left;
   }
+
+  .why_para p {
+    font-size: 20px;
+  }
+
+  .bd-section__btn-wrapper img {
+    max-width: 90% !important;
+  }
+  
+  .bd-section__inner-list {
+    font-size: 20px;
+  }
+
+  .svg_div {
+    height: 10vh !important;
+  }
 }
 
 .bd-section__btn-wrapper img {
