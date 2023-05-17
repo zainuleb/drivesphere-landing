@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const OutComes = () => {
   return (
-    <div className="bd-about-2__section pt-120 pb-90 theme-bg ">
+    <div className="bd-about-2__section theme-bg ">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-8 wow fadeInUp">
@@ -20,9 +20,9 @@ const OutComes = () => {
                       </span>
                       <b>
                         <u>Improve your driving skills</u>
-                      </b>{" "}
-                      at your own pace with a customized program tailored to
-                      your needs.
+                      </b>
+                      &nbsp; at your own pace with a customized program tailored
+                      to your needs.
                     </li>
                     <li>
                       <span>
@@ -30,8 +30,9 @@ const OutComes = () => {
                       </span>
                       <b>
                         <u>Gain confidence and experience</u>
-                      </b>{" "}
-                      in a safe environment, without the stress of real traffic.
+                      </b>
+                      &nbsp; in a safe environment, without the stress of real
+                      traffic.
                     </li>
                     <li>
                       <span>
@@ -52,8 +53,8 @@ const OutComes = () => {
                           Significantly reduce the duration and cost of training
                           to get your driving license
                         </u>
-                      </b>{" "}
-                      and get your first FREE simulator class with us.
+                      </b>
+                      &nbsp; and get your first FREE simulator class with us.
                     </li>
                     <li>
                       <span>
@@ -61,8 +62,8 @@ const OutComes = () => {
                       </span>
                       <b>
                         <u>Understand the importance of responsible driving</u>
-                      </b>{" "}
-                      and become a more conscious driver on the road.
+                      </b>
+                      &nbsp; and become a more conscious driver on the road.
                     </li>
                   </ul>
                 </div>
@@ -82,7 +83,7 @@ const OutComes = () => {
             <div className="row justify-content-end">
               <div className="col-lg-10 col-md-6">
                 <div className="bd-about-2__img w-img mb-30">
-                  <img src="assets/img/extra/image2.jpg" alt="out1.png" />
+                  <img src="assets/img/extra/image2.jpeg" alt="out1.png" />
                 </div>
               </div>
             </div>

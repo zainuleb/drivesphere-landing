@@ -92,7 +92,7 @@
   background-repeat: no-repeat;
 }
 
-.blackhighlight{
+.blackhighlight {
   background-color: #000000;
 }
 
@@ -111,6 +111,26 @@
   font-size: 15px;
   color: white;
   text-align: justify;
+}
+
+.bd-about-2__section {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .bd-about-2__section {
+    padding-top: 25px;
+    padding-bottom: 45px;
+  }
+
+  .bd-about-2__section ul {
+    font-size: 20px;
+  }
+
+  .bd-section__inner-list ul li {
+    text-align: left;
+  }
 }
 
 .bd-section__btn-wrapper img {

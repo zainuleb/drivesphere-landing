@@ -46,8 +46,10 @@ const Main = () => {
                   data-animation="fadeInUp"
                   data-delay=".7s"
                 >
-                  Get ready for your Driving License with our EU-approved
-                  driving simulator training program
+                  <span className="blackhighlight">
+                    Get ready for your Driving License with our EU-approved
+                    driving simulator training program
+                  </span>
                 </p>
                 <div
                   className="bd-slider__btn"

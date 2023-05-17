@@ -1945,6 +1945,11 @@ input[type="color"] {
   .bd-slider__content p {
     font-size: 20px !important;
   }
+
+  .mainPara{
+    max-width: 95% !important;;
+  }
+
 }
 .bd-slider__content p {
   font-size: 22px;
