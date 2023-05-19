@@ -1,16 +1,25 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import Modal from "../modal/Modal";
 
 const Membership = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
   return (
     <>
       <div className="svg_div"></div>
       <div className="bd-portfolio__section pt-90 pb-60">
+        {isOpen && <Modal isOpen={isOpen} close={closeModal} />}
         <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="bd-section__title-wrapper text-center mb-120 wow fadeInUp">
-                {/* <span className="bd-section__subtitle mb-5">Creative Inc.</span> */}
                 <h3 className="bd-section__title membership_title bd-title-border">
                   This is how the <strong>DriveSphere Membership</strong> works:
                 </h3>
@@ -32,12 +41,6 @@ const Membership = () => {
                   <h3 className="bd-section__title bd-section__title-lg mb-25">
                     Sign up today for our FREE DriveSphere Membership program.
                   </h3>
-                  {/* <p className="mb-25">
-                    Lorem ipsum dolor sit amet conse cotur adip isicing elit sed
-                    do eiu smod tempor incididunt labore arale jane kannaLorem
-                    ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-                  </p> */}
                 </div>
               </div>
             </div>
@@ -135,12 +138,12 @@ const Membership = () => {
                 data-animation="fadeInUp"
                 data-delay=".9s"
               >
-                <Link to="/signUp" className="bd-btn-member">
+                <button onClick={openModal} className="bd-btn-member">
                   Subscribe to get your first class for FREE
                   <span>
                     <i className="fa-regular fa-angle-right"></i>
                   </span>
-                </Link>
+                </button>
               </div>
             </div>
           </div>
