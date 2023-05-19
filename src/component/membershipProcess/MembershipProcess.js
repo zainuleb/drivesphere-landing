@@ -4,21 +4,6 @@ const MembershipProcess = () => {
   return (
     <div className="bd-about__inner-section pt-90 pb-60">
       <div className="container">
-        {/* <div className="bd-about__inner-content">
-          <div className="row gx-1">
-            <div className="col-lg-6">
-              <div className="mb-30 w-img">
-                <img src="assets/img/portfolio/portfilo-inner-3.jpg" alt="" />
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="mb-30 w-img">
-                <img src="assets/img/portfolio/portfilo-inner-2.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         <div className="bd-section__inner-content">
           <h3 className="bd-section__inner-title">
             This is how the

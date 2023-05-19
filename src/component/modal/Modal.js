@@ -1,4 +1,5 @@
 import React from "react";
+import ShortForm from "../subscription/ShortForm";
 
 const Modal = ({ isOpen, close }) => {
   return (
@@ -19,7 +20,9 @@ const Modal = ({ isOpen, close }) => {
         <div>
           <h3>Ready to accelerate your driving skills and conquer the road?</h3>
         </div>
-        <div></div>
+        <div>
+          <ShortForm />
+        </div>
         <button className="btn_modal" onClick={() => close()}>
           Close
         </button>
