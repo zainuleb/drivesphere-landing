@@ -488,3 +488,7 @@
   width: 8em;
   margin: 0 auto;
 }
+
+.privacy-section h2,h5{
+  color: white;
+}

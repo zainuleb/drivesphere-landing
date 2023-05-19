@@ -2,7 +2,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div>
+    <div className="privacy-section">
       <h2>Data Privacy Policy</h2>
       <p>
         At DriveSphere Technologies, we are committed to protecting your

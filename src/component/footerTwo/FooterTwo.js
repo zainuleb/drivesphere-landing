@@ -1,4 +1,5 @@
 import React from "react";
+import PrivacyPolicy from "../privacyPolicy/PrivacyPolicy";
 
 const FooterTwo = () => {
   return (
@@ -26,33 +27,13 @@ const FooterTwo = () => {
                       using our program, you agree we are not liable for any
                       damages or losses arising from your use of our service.
                     </p>
-                    {/* <div className="bd-footer-widget__social">
-                      <span>
-                        <a href="/#">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="/#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="/#">
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="/#">
-                          <i className="fab fa-linkedin"></i>
-                        </a>
-                      </span>
-                    </div> */}
+                    <PrivacyPolicy />
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="bd-footer__copyright bd-border-top pt-40 pb-40">
             <span>
               All rights reserved © 2023 <a href="#/">DriveSphere</a>
