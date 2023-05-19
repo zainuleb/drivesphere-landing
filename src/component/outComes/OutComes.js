@@ -1,9 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import Modal from "../modal/Modal";
 
 const OutComes = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="bd-about-2__section theme-bg ">
+      {isOpen && <Modal isOpen={isOpen} close={closeModal} />}
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-8 wow fadeInUp">
@@ -68,12 +79,12 @@ const OutComes = () => {
                   </ul>
                 </div>
                 <div className="bd-section__btn-wrapper pt-30">
-                  <Link to="/signUp" className="bd-btn">
+                  <button onClick={openModal} className="bd-btn">
                     Subscribe to get your first class for FREE
                     <span>
                       <i className="fa-regular fa-angle-right"></i>
                     </span>
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>
