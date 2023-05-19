@@ -1,25 +1,21 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import Modal from "../modal/Modal";
 
 const WhoShouldJoin = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="bd-about__inner-section pt-90 pb-60">
+      {isOpen && <Modal isOpen={isOpen} close={closeModal} />}
       <div className="container">
-        {/* <div className="bd-about__inner-content">
-          <div className="row gx-1">
-            <div className="col-lg-6">
-              <div className="mb-30 w-img">
-                <img src="assets/img/portfolio/portfilo-inner-3.jpg" alt="" />
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="mb-30 w-img">
-                <img src="assets/img/portfolio/portfilo-inner-2.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         <div className="bd-section__inner-content">
           <h3 className="bd-section__inner-title">
             Who should join our DriveSphere Membership?
@@ -82,9 +78,9 @@ const WhoShouldJoin = () => {
           <p>
             The best part?
             <strong>
-              <u>Our membership program is absolutely FREE </u>{" "}
+              <u>Our membership program is absolutely FREE </u>
             </strong>
-            and comes with your{" "}
+            and comes with your
             <strong>
               <u>first simulator lesson for FREE</u>
             </strong>
@@ -102,12 +98,12 @@ const WhoShouldJoin = () => {
           </p>
         </div>
         <div className="bd-section__btn-wrapper pt-30">
-          <Link to="/signUp" className="bd-btn">
+          <button onClick={openModal} className="bd-btn">
             Subscribe to get your first class for FREE
             <span>
               <i className="fa-regular fa-angle-right"></i>
             </span>
-          </Link>
+          </button>
         </div>
       </div>
     </div>
