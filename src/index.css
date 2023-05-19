@@ -465,3 +465,26 @@
 .modal-list {
   padding-left: 30px; /* Adjust this value to achieve your desired indentation */
 }
+
+.modal_heading{
+  font-size: 26px !important;
+  text-align: center !important ;
+  margin: 2rem 0px;
+  background-image: linear-gradient(to right, #1f2021, #484848);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2em;
+}
+
+.btn_modal{
+  cursor: pointer;
+  font-weight: 900;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 0.85rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  width: 8em;
+  margin: 0 auto;
+}
