@@ -1,12 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import Modal from "../modal/Modal";
 
 const EUSection = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div
       className="bd-cta__section primary-bg pt-80 pb-60 wow fadeInUp"
       style={{ backgroundColor: "#222222" }}
     >
+      {isOpen && <Modal isOpen={isOpen} close={closeModal} />}
       <div className="container">
         <div className="row d-flex justify-content-between">
           <div className="col-lg-8">
@@ -26,29 +37,29 @@ const EUSection = () => {
                 </p>
                 <p>
                   Our driving training center offers you a customized program
-                  where you can{" "}
+                  where you can
                   <u>
                     <strong>
-                      learn and practice driving skills without stress!{" "}
-                    </strong>{" "}
-                  </u>{" "}
+                      learn and practice driving skills without stress!
+                    </strong>
+                  </u>
                   We’ve got you covered!
                 </p>
                 <p>
-                  With the latest technology and equipment, you'll{" "}
+                  With the latest technology and equipment, you'll
                   <u>
                     <strong>become a confident driver</strong>
-                  </u>{" "}
+                  </u>
                   while experiencing an engaging and effective learning
-                  experience.{" "}
+                  experience.
                 </p>
                 <p>
-                  Plus joining our training center means significantly{" "}
+                  Plus joining our training center means significantly
                   <u>
                     <strong>
                       reducing the duration and cost of your training.
                     </strong>
-                  </u>{" "}
+                  </u>
                   No more wasting time and money on traditional methods!
                 </p>
                 <p>
@@ -69,11 +80,11 @@ const EUSection = () => {
                 className="euroComLogo"
                 alt="european comission logo"
               />
-              <Link to="/signUp" className="bd-border-btn">
+              <button onClick={openModal} className="bd-border-btn">
                 Subscribe for FREE
                 <i className="fas fa-angle-right"></i>
                 <i className="fas fa-angle-right"></i>
-              </Link>
+              </button>
             </div>
           </div>
         </div>
