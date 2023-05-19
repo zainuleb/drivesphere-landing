@@ -13,12 +13,12 @@ const Modal = ({ isOpen, close }) => {
               the first to know when our world of realistic driving training
               programs is ready to roll. Leave us your mail, and we’ll make sure
               to secure your driver’s seat! And remember, the first session is
-              on us."
+              on us. "
             </u>
           </strong>
         </p>
         <div>
-          <h3>Ready to accelerate your driving skills and conquer the road?</h3>
+          <h4>Ready to accelerate your driving skills and conquer the road?</h4>
         </div>
         <div>
           <ShortForm />
