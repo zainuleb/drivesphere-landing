@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Modal from "../modal/Modal";
 const Main = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="hero">
+      {isOpen && <Modal isOpen={isOpen} close={closeModal} />}
       <div className="logo_section">
         <img src="assets/img/logo/logo.png" alt="logo.png" />
       </div>
@@ -52,16 +63,17 @@ const Main = () => {
                   </span>
                 </p>
                 <div
-                  className="bd-slider__btn"
+                  className="bd-slider__btn bd-btn"
                   data-animation="fadeInUp"
                   data-delay=".9s"
+                  onClick={openModal}
                 >
-                  <Link to="/signUp" className="bd-btn">
-                    Subscribe to get your first class for FREE
-                    <span>
-                      <i className="fa-regular fa-angle-right"></i>
-                    </span>
-                  </Link>
+                  {/* <Link to="/signUp" className="bd-btn"> */}
+                  Subscribe to get your first class for FREE
+                  <span>
+                    <i className="fa-regular fa-angle-right"></i>
+                  </span>
+                  {/* </Link> */}
                 </div>
               </div>
             </div>
