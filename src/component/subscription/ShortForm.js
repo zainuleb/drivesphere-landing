@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const ShortForm = () => {
@@ -32,24 +33,24 @@ const ShortForm = () => {
     formData.append("entry.1122186267", name); // Name field code
     formData.append("entry.1918902053", email); // Email field code
 
-    // fetch(
-    //   "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
-    //   {
-    //     method: "POST",
-    //     mode: "no-cors",
-    //     headers: {
-    //       "Access-Control-Allow-Origin": "*",
-    //       "Content-Type": "application/json",
-    //     },
-    //     body: formData,
-    //   }
-    // )
-    //   .then(() => {
-    //     navigate("/success");
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
-    //   });
+    fetch(
+      "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/json",
+        },
+        body: formData,
+      }
+    )
+      .then(() => {
+        navigate("/success");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
 
   return (
@@ -90,11 +91,12 @@ const ShortForm = () => {
               onChange={handlePrivacyPolicyChange}
               required
             />
+            <span> </span>
             <label htmlFor="privacyPolicy">
-              I agree to the
-              <a href="/privacy-policy" target="_blank">
+              I agree to the <span> </span>
+              <Link to="/privacy-policy" target="_blank">
                 Privacy Policy
-              </a>
+              </Link>
             </label>
           </div>
         </div>

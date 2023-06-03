@@ -1,5 +1,5 @@
 import React from "react";
-import PrivacyPolicy from "../privacyPolicy/PrivacyPolicy";
+import { Link } from "react-router-dom";
 
 const FooterTwo = () => {
   return (
@@ -27,16 +27,17 @@ const FooterTwo = () => {
                       using our program, you agree we are not liable for any
                       damages or losses arising from your use of our service.
                     </p>
-                    <PrivacyPolicy />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div className="bd-footer__copyright bd-border-top pt-40 pb-40">
+            <div>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+            </div>
             <span>
-              All rights reserved © 2023 <a href="#/">DriveSphere</a>
+              All rights reserved © 2023 <Link to="/">DriveSphere</Link>
             </span>
           </div>
         </div>
