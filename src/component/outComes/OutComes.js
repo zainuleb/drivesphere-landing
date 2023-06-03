@@ -23,11 +23,11 @@ const OutComes = () => {
                 <h3 className="bd-section__title bd-section__title-lg mb-25">
                   After Training at Our Driving Center, You Will:
                 </h3>
-                <div class="bd-section__inner-list mb-40">
+                <div className="bd-section__inner-list mb-40">
                   <ul>
                     <li>
                       <span>
-                        <i class="fal fa-check-circle"></i>
+                        <i className="fal fa-check-circle"></i>
                       </span>
                       <b>
                         <u>Improve your driving skills</u>
@@ -37,7 +37,7 @@ const OutComes = () => {
                     </li>
                     <li>
                       <span>
-                        <i class="fal fa-check-circle"></i>
+                        <i className="fal fa-check-circle"></i>
                       </span>
                       <b>
                         <u>Gain confidence and experience</u>
@@ -47,7 +47,7 @@ const OutComes = () => {
                     </li>
                     <li>
                       <span>
-                        <i class="fal fa-check-circle"></i>
+                        <i className="fal fa-check-circle"></i>
                       </span>
                       <b>
                         <u>Learn to handle different real-life scenarios</u>
@@ -57,7 +57,7 @@ const OutComes = () => {
                     </li>
                     <li>
                       <span>
-                        <i class="fal fa-check-circle"></i>
+                        <i className="fal fa-check-circle"></i>
                       </span>
                       <b>
                         <u>
@@ -65,11 +65,12 @@ const OutComes = () => {
                           to get your driving license
                         </u>
                       </b>
-                      &nbsp; and get your first FREE simulator class with us.
+                      &nbsp; and get your first FREE simulator className with
+                      us.
                     </li>
                     <li>
                       <span>
-                        <i class="fal fa-check-circle"></i>
+                        <i className="fal fa-check-circle"></i>
                       </span>
                       <b>
                         <u>Understand the importance of responsible driving</u>
@@ -80,7 +81,7 @@ const OutComes = () => {
                 </div>
                 <div className="bd-section__btn-wrapper pt-30">
                   <button onClick={openModal} className="bd-btn">
-                    Subscribe to get your first class for FREE
+                    Subscribe to get your first className for FREE
                     <span>
                       <i className="fa-regular fa-angle-right"></i>
                     </span>

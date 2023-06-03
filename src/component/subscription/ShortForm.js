@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 const ShortForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [privacyPolicyAccepted, setPrivacyPolicyAccepted] = useState(false);
 
   const navigate = useNavigate();
 
@@ -15,32 +16,42 @@ const ShortForm = () => {
     setEmail(e.target.value);
   };
 
+  const handlePrivacyPolicyChange = (e) => {
+    setPrivacyPolicyAccepted(e.target.checked);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!privacyPolicyAccepted) {
+      alert("Please accept the Privacy Policy.");
+      return;
+    }
 
     const formData = new FormData();
     formData.append("entry.1122186267", name); // Name field code
     formData.append("entry.1918902053", email); // Email field code
 
-    fetch(
-      "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
-      {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Content-Type": "application/json",
-        },
-        body: formData,
-      }
-    )
-      .then(() => {
-        navigate("/success");
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    // fetch(
+    //   "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
+    //   {
+    //     method: "POST",
+    //     mode: "no-cors",
+    //     headers: {
+    //       "Access-Control-Allow-Origin": "*",
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: formData,
+    //   }
+    // )
+    //   .then(() => {
+    //     navigate("/success");
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
   };
+
   return (
     <form onSubmit={handleSubmit} className="mt-20">
       <div className="row">
@@ -68,6 +79,23 @@ const ShortForm = () => {
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               required
             />
+          </div>
+        </div>
+        <div className="col-xxl-12 mt-10">
+          <div className="postbox__privacy-check">
+            <input
+              name="privacyPolicy"
+              type="checkbox"
+              checked={privacyPolicyAccepted}
+              onChange={handlePrivacyPolicyChange}
+              required
+            />
+            <label htmlFor="privacyPolicy">
+              I agree to the
+              <a href="/privacy-policy" target="_blank">
+                Privacy Policy
+              </a>
+            </label>
           </div>
         </div>
         <div className="col-xxl-12 mt-10 pb-30">

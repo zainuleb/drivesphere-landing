@@ -128,7 +128,7 @@ const SubscriptionForm = () => {
                   <div className="col-xxl-12 col-xl-12 col-lg-12">
                     <div className="plans">
                       <div className="title">Choose a pricing plan</div>
-                      <label class="plan basic-plan" for="earlyDrive">
+                      <label className="plan basic-plan" for="earlyDrive">
                         <input
                           type="radio"
                           name="plan"
@@ -137,13 +137,13 @@ const SubscriptionForm = () => {
                           value="EarlyDrive (99€)"
                           onChange={handlePlanChange}
                         />
-                        <div class="plan-content">
+                        <div className="plan-content">
                           <img
                             loading="lazy"
                             src="assets/img/extra/car (3).png"
                             alt="car.png"
                           />
-                          <div class="plan-details">
+                          <div className="plan-details">
                             <span>EarlyDrive (99€)</span>
                             <p>
                               Includes 4 simulator classes per month, available
@@ -152,7 +152,7 @@ const SubscriptionForm = () => {
                           </div>
                         </div>
                       </label>
-                      <label class="plan complete-plan" for="secureDrive">
+                      <label className="plan complete-plan" for="secureDrive">
                         <input
                           type="radio"
                           id="secureDrive"
@@ -160,13 +160,13 @@ const SubscriptionForm = () => {
                           value="SecureDrive (140€)"
                           onChange={handlePlanChange}
                         />
-                        <div class="plan-content">
+                        <div className="plan-content">
                           <img
                             loading="lazy"
                             src="assets/img/extra/smart-car.png"
                             alt="car.png"
                           />
-                          <div class="plan-details">
+                          <div className="plan-details">
                             <span>SecureDrive (140€)</span>
                             <p>
                               Includes 4 simulator classes per month. Any day.
@@ -175,7 +175,7 @@ const SubscriptionForm = () => {
                           </div>
                         </div>
                       </label>
-                      <label class="plan complete-plan" for="morningDrive">
+                      <label className="plan complete-plan" for="morningDrive">
                         <input
                           type="radio"
                           id="morningDrive"
@@ -183,13 +183,13 @@ const SubscriptionForm = () => {
                           value="MorningDrive (140€)"
                           onChange={handlePlanChange}
                         />
-                        <div class="plan-content">
+                        <div className="plan-content">
                           <img
                             loading="lazy"
                             src="assets/img/extra/car (2).png"
                             alt="car.png"
                           />
-                          <div class="plan-details">
+                          <div className="plan-details">
                             <span>MorningDrive (189€)</span>
                             <p>
                               Includes 4 simulator classes per month, available
@@ -198,7 +198,7 @@ const SubscriptionForm = () => {
                           </div>
                         </div>
                       </label>
-                      <label class="plan complete-plan" for="smartDrive">
+                      <label className="plan complete-plan" for="smartDrive">
                         <input
                           type="radio"
                           id="smartDrive"
@@ -206,13 +206,13 @@ const SubscriptionForm = () => {
                           value="SmartDrive (190€)"
                           onChange={handlePlanChange}
                         />
-                        <div class="plan-content">
+                        <div className="plan-content">
                           <img
                             loading="lazy"
                             src="assets/img/extra/electric-car.png"
                             alt="car.png"
                           />
-                          <div class="plan-details">
+                          <div className="plan-details">
                             <span>SmartDrive (264€)</span>
                             <p>
                               Includes 8 simulator classes per month. Any day.
@@ -221,7 +221,7 @@ const SubscriptionForm = () => {
                           </div>
                         </div>
                       </label>
-                      <label class="plan complete-plan" for="proDrive">
+                      <label className="plan complete-plan" for="proDrive">
                         <input
                           type="radio"
                           id="proDrive"
@@ -229,13 +229,13 @@ const SubscriptionForm = () => {
                           value="ProDrive (290€)"
                           onChange={handlePlanChange}
                         />
-                        <div class="plan-content">
+                        <div className="plan-content">
                           <img
                             loading="lazy"
                             src="assets/img/extra/car.png"
                             alt="car.png"
                           />
-                          <div class="plan-details">
+                          <div className="plan-details">
                             <span>ProDrive (372€)</span>
                             <p>
                               Includes 12 simulator classes per month. Any day.
@@ -244,20 +244,20 @@ const SubscriptionForm = () => {
                           </div>
                         </div>
                       </label>
-                      <label class="plan complete-plan" for="ultraDrive">
+                      <label className="plan complete-plan" for="ultraDrive">
                         <input
                           type="radio"
                           id="ultraDrive"
                           name="plan"
                           onChange={handlePlanChange}
                         />
-                        <div class="plan-content">
+                        <div className="plan-content">
                           <img
                             loading="lazy"
                             src="assets/img/extra/racing-car.png"
                             alt="car.png"
                           />
-                          <div class="plan-details">
+                          <div className="plan-details">
                             <span>UltraDrive (1.392€)</span>
                             <p>
                               Includes unlimited simulator classes per month.

@@ -24,7 +24,7 @@ const WhoShouldJoin = () => {
             <ul>
               <li>
                 <span>
-                  <i class="fas fa-arrow-right"></i>
+                  <i className="fas fa-arrow-right"></i>
                 </span>
                 <strong>
                   <u>
@@ -35,7 +35,7 @@ const WhoShouldJoin = () => {
               </li>
               <li>
                 <span>
-                  <i class="fas fa-arrow-right"></i>
+                  <i className="fas fa-arrow-right"></i>
                 </span>
                 <strong>
                   <u>
@@ -46,7 +46,7 @@ const WhoShouldJoin = () => {
               </li>
               <li>
                 <span>
-                  <i class="fas fa-arrow-right"></i>
+                  <i className="fas fa-arrow-right"></i>
                 </span>
                 <strong>
                   <u>
@@ -56,7 +56,7 @@ const WhoShouldJoin = () => {
               </li>
               <li>
                 <span>
-                  <i class="fas fa-arrow-right"></i>
+                  <i className="fas fa-arrow-right"></i>
                 </span>
                 <strong>
                   <u>
@@ -99,7 +99,7 @@ const WhoShouldJoin = () => {
         </div>
         <div className="bd-section__btn-wrapper pt-30">
           <button onClick={openModal} className="bd-btn">
-            Subscribe to get your first class for FREE
+            Subscribe to get your first className for FREE
             <span>
               <i className="fa-regular fa-angle-right"></i>
             </span>

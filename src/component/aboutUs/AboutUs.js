@@ -33,7 +33,7 @@ const AboutUs = () => {
                   <ul>
                     <li>
                       <span>
-                        <i class="fas fa-angle-double-right"></i>
+                        <i className="fas fa-angle-double-right"></i>
                       </span>
                       Our training program is
                       <strong> backed by hundreds of data research,</strong> and
@@ -42,7 +42,7 @@ const AboutUs = () => {
                     </li>
                     <li>
                       <span>
-                        <i class="fas fa-angle-double-right"></i>
+                        <i className="fas fa-angle-double-right"></i>
                       </span>
                       It has proven benefits for drivers, including improved
                       reaction times, enhanced driving skills, and increased
@@ -51,7 +51,7 @@ const AboutUs = () => {
                     </li>
                     <li>
                       <span>
-                        <i class="fas fa-angle-double-right"></i>
+                        <i className="fas fa-angle-double-right"></i>
                       </span>
                       With over 2.000 monthly active members, we are the biggest
                       simulator training center in Europe.
