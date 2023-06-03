@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const SubscriptionForm = () => {
   const [name, setName] = useState("");
@@ -7,6 +8,8 @@ const SubscriptionForm = () => {
   const [city, setCity] = useState("");
   const [selectedCity, setSelectedCity] = useState("Berlin");
   const [selectedPlan, setSelectedPlan] = useState("");
+  const [privacyPolicyAccepted, setPrivacyPolicyAccepted] = useState(false);
+
   const navigate = useNavigate();
 
   const handleNameChange = (e) => {
@@ -30,9 +33,16 @@ const SubscriptionForm = () => {
     setSelectedPlan(e.target.id);
   };
 
+  const handlePrivacyPolicyChange = (e) => {
+    setPrivacyPolicyAccepted(e.target.checked);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    if (!privacyPolicyAccepted) {
+      alert("Please accept the Privacy Policy.");
+      return;
+    }
     const formData = new FormData();
     formData.append("entry.1122186267", name); // Name field code
     formData.append("entry.1918902053", email); // Email field code
@@ -270,6 +280,24 @@ const SubscriptionForm = () => {
                   </div>
 
                   <div className="col-xxl-12 mt-30">
+                    <div className="postbox__comment-btn d-flex justify-content-start">
+                      <div className="postbox__privacy-check">
+                        <input
+                          name="privacyPolicy"
+                          type="checkbox"
+                          checked={privacyPolicyAccepted}
+                          onChange={handlePrivacyPolicyChange}
+                          required
+                        />
+                        <span> </span>
+                        <label htmlFor="privacyPolicy">
+                          I agree to the <span> </span>
+                          <Link to="/privacy-policy" target="_blank">
+                            Privacy Policy
+                          </Link>
+                        </label>
+                      </div>
+                    </div>
                     <div className="postbox__comment-btn d-flex justify-content-end">
                       <button type="submit" className="bd-btn float-right">
                         Sign Up
