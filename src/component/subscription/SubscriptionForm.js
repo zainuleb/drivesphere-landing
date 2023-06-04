@@ -144,7 +144,7 @@ const SubscriptionForm = () => {
                           name="plan"
                           id="earlyDrive"
                           defaultChecked
-                          value="EarlyDrive (99€)"
+                          value="Basic Module (149€)"
                           onChange={handlePlanChange}
                         />
                         <div className="plan-content">
@@ -154,10 +154,10 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div className="plan-details">
-                            <span>EarlyDrive (99€)</span>
+                            <span>Basic Module (149€)</span>
                             <p>
-                              Includes 4 simulator classes per month, available
-                              for morning sessions only.
+                              5 hrs - Basic training that includes all theory
+                              aspects.
                             </p>
                           </div>
                         </div>
@@ -167,7 +167,7 @@ const SubscriptionForm = () => {
                           type="radio"
                           id="secureDrive"
                           name="plan"
-                          value="SecureDrive (140€)"
+                          value="Advanced Module (149€)"
                           onChange={handlePlanChange}
                         />
                         <div className="plan-content">
@@ -177,10 +177,11 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div className="plan-details">
-                            <span>SecureDrive (140€)</span>
+                            <span>Advanced Module (149€)</span>
                             <p>
-                              Includes 4 simulator classes per month. Any day.
-                              Anytime.
+                              5 hrs - Multiple terrains, weather, and high
+                              traffic situations, with focus on pedestrian
+                              safety.
                             </p>
                           </div>
                         </div>
@@ -190,7 +191,7 @@ const SubscriptionForm = () => {
                           type="radio"
                           id="morningDrive"
                           name="plan"
-                          value="MorningDrive (140€)"
+                          value="Safety Module (149€)"
                           onChange={handlePlanChange}
                         />
                         <div className="plan-content">
@@ -200,10 +201,10 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div className="plan-details">
-                            <span>MorningDrive (189€)</span>
+                            <span>Safety Module (149€)</span>
                             <p>
-                              Includes 4 simulator classes per month, available
-                              for morning sessions only.
+                              5 hrs - Learn to identify and react safely to
+                              particular dangerous traffic situations.
                             </p>
                           </div>
                         </div>
@@ -223,15 +224,15 @@ const SubscriptionForm = () => {
                             alt="car.png"
                           />
                           <div className="plan-details">
-                            <span>SmartDrive (264€)</span>
+                            <span>Practical Test (119€)</span>
                             <p>
-                              Includes 8 simulator classes per month. Any day.
-                              Anytime.
+                              3 hrs - Three practical exams with AI instructor.
+                              Perfect for driver's license practical exam.
                             </p>
                           </div>
                         </div>
                       </label>
-                      <label className="plan complete-plan" for="proDrive">
+                      {/* <label className="plan complete-plan" for="proDrive">
                         <input
                           type="radio"
                           id="proDrive"
@@ -275,7 +276,7 @@ const SubscriptionForm = () => {
                             </p>
                           </div>
                         </div>
-                      </label>
+                      </label> */}
                     </div>
                   </div>
 
