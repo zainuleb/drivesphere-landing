@@ -16,51 +16,47 @@ const Main = () => {
     <div className="hero">
       {isOpen && <Modal isOpen={isOpen} close={closeModal} />}
       <div className="logo_section">
-        <img src="assets/img/logo/logo.png" alt="logo.png" />
+        <img
+          src="assets/img/logo/logo.png"
+          alt="Drivesphere VR Driving Training Center Logo"
+        />
       </div>
       <div className="swiper-slide bd-slider__item bd-slider__height include-bg d-flex align-items-center bg-item">
         <div className="container">
           <div className="row">
             <div className="col-xxl-6 col-xl-8 col-lg-8 col-md-10">
               <div className="bd-slider__content">
-                <span
+                <h2
                   className="bd-slider__subtitle blackhighlight"
                   data-animation="fadeInUp"
                   data-delay=".3s"
                 >
-                  Confident Drivers
-                </span>
-                <h5
-                  className="bd-slider__title "
+                  Confident Drivers | Drivesphere VR Driving Training Center
+                </h2>
+                <h1
+                  className="bd-slider__title"
                   data-animation="fadeInUp"
                   data-delay=".5s"
                 >
-                  <span className="blackhighlight">
-                    Trained by Innovative, Data Driven Technologies
-                  </span>
-                </h5>
-
+                  Trained by Innovative, Data Driven Technologies
+                </h1>
                 <p
                   className="mainPara"
                   data-animation="fadeInUp"
                   data-delay=".7s"
                 >
-                  <span className="blackhighlight">
-                    Get ready for your Driving License with our EU-approved
-                    driving simulator training program
-                  </span>
+                  Get ready for your Driving License with Drivesphere's
+                  EU-approved driving simulator training program.
                 </p>
-                <div
+                <button
                   className="bd-slider__btn bd-btn"
                   data-animation="fadeInUp"
                   data-delay=".9s"
                   onClick={openModal}
                 >
-                  Subscribe to get your first class for FREE
-                  <span>
-                    <i className="fa-regular fa-angle-right"></i>
-                  </span>
-                </div>
+                  Subscribe now and receive your first class for FREE
+                  <i className="fa-regular fa-angle-right"></i>
+                </button>
               </div>
             </div>
           </div>

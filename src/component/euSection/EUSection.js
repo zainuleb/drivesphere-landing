@@ -22,53 +22,53 @@ const EUSection = () => {
         <div className="row d-flex justify-content-between">
           <div className="col-lg-8">
             <div className="bd-cta__info mb-30">
-              <h3 className="bd-cta__title text-white">
-                Why Should You Train at DriveSphere?
-              </h3>
+              <h2 className="bd-cta__title text-white">
+                Discover the Benefits of Training at DriveSphere
+              </h2>
               <div className="why_para mt-20">
                 <p>
-                  <u>
-                    <strong>
-                      The European Union has introduced a new Directive that
-                      encourages simulator-based training as an effective way to
-                      develop driving skills.
-                    </strong>
-                  </u>
+                  <strong>
+                    <u>
+                      The European Union has recognized simulator-based training
+                      as an effective method for developing driving skills.
+                    </u>
+                  </strong>
                 </p>
                 <p>
-                  Our driving training center offers you a customized program
-                  where you can
-                  <u>
-                    <strong>
-                      learn and practice driving skills without stress!
-                    </strong>
-                  </u>
-                  We’ve got you covered!
+                  At our driving training center, we offer a customized program
+                  where you can{" "}
+                  <strong>
+                    <u>learn and practice driving skills without stress</u>
+                  </strong>
+                  . We've got you covered!
                 </p>
                 <p>
-                  With the latest technology and equipment, you'll
-                  <u>
-                    <strong>become a confident driver</strong>
-                  </u>
+                  With state-of-the-art technology and equipment, you'll become
+                  a{" "}
+                  <strong>
+                    <u>confident driver</u>
+                  </strong>{" "}
                   while experiencing an engaging and effective learning
                   experience.
                 </p>
                 <p>
-                  Plus joining our training center means significantly
-                  <u>
-                    <strong>
-                      reducing the duration and cost of your training.
-                    </strong>
-                  </u>
-                  No more wasting time and money on traditional methods!
+                  Plus, training at DriveSphere means{" "}
+                  <strong>
+                    <u>
+                      significantly reducing the duration and cost of your
+                      training
+                    </u>
+                  </strong>
+                  . No more wasting time and money on traditional methods!
                 </p>
                 <p>
-                  <u>
-                    <strong>
-                      Training at DriveSphere is currently the best way pass
-                      your driving test exam with honors!
-                    </strong>
-                  </u>
+                  <strong>
+                    <u>
+                      Training at DriveSphere is currently the best way to pass
+                      your driving test exam with honors
+                    </u>
+                  </strong>
+                  !
                 </p>
               </div>
             </div>
@@ -78,10 +78,10 @@ const EUSection = () => {
               <img
                 src="assets/img/extra/euComission.png"
                 className="euroComLogo"
-                alt="european comission logo"
+                alt="European Commission Logo"
               />
               <button onClick={openModal} className="bd-border-btn">
-                Subscribe for FREE
+                Subscribe now for FREE
                 <i className="fas fa-angle-right"></i>
                 <i className="fas fa-angle-right"></i>
               </button>
