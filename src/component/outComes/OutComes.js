@@ -71,7 +71,7 @@ const OutComes = () => {
                 <div className="bd-about-2__img w-img mb-30">
                   <img
                     src="assets/img/extra/image2.jpeg"
-                    alt="Image of Driving Training"
+                    alt="Driving Training.jpeg"
                   />
                 </div>
               </div>
