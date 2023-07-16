@@ -44,14 +44,14 @@ const SubscriptionForm = () => {
       return;
     }
     const formData = new FormData();
-    formData.append("entry.1122186267", name); // Name field code
-    formData.append("entry.1918902053", email); // Email field code
-    formData.append("entry.289865807", selectedCity); // City field code
-    formData.append("entry.281628252", city); // Mention your City field code
-    formData.append("entry.2049307578", selectedPlan); // Pricing Plan field code
+    formData.append("entry.1304327223", name); // Name field code
+    formData.append("entry.1849012275", email); // Email field code
+    formData.append("entry.1955388634", selectedCity); // City field code
+    formData.append("entry.467576796", city); // Mention your City field code
+    formData.append("entry.1006557993", selectedPlan); // Pricing Plan field code
 
     fetch(
-      "https://docs.google.com/forms/d/1A6q8bLkPk02PRuwlhH792Yyxn2XYLV1HXQ0rrC5Dio4/formResponse",
+      "https://docs.google.com/forms/d/1oqVLdo1HJ6yiGf3U8twMRPhyaNXzLCzZHyX4LAKqFNY/formResponse",
       {
         method: "POST",
         mode: "no-cors",
