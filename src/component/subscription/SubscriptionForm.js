@@ -46,9 +46,9 @@ const SubscriptionForm = () => {
     const formData = new FormData();
     formData.append("entry.207834910", name); // Name field code
     formData.append("entry.846044297", email); // Email field code
-    formData.append("entry.1955388634", selectedCity); // City field code
-    formData.append("entry.467576796", city); // Mention your City field code
-    formData.append("entry.1006557993", selectedPlan); // Pricing Plan field code
+    //formData.append("entry.1955388634", selectedCity); // City field code
+    //formData.append("entry.467576796", city); // Mention your City field code
+    //formData.append("entry.1006557993", selectedPlan); // Pricing Plan field code
 
     fetch(
       "https://docs.google.com/forms/d/1wWdZ1hRX2GTClBneIKpYyRtXExJhmW8MwRUp7q6P86c/formResponse",
