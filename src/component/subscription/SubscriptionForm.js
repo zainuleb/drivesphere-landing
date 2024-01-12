@@ -44,14 +44,14 @@ const SubscriptionForm = () => {
       return;
     }
     const formData = new FormData();
-    formData.append("entry.1304327223", name); // Name field code
-    formData.append("entry.1849012275", email); // Email field code
+    formData.append("entry.207834910", name); // Name field code
+    formData.append("entry.846044297", email); // Email field code
     formData.append("entry.1955388634", selectedCity); // City field code
     formData.append("entry.467576796", city); // Mention your City field code
     formData.append("entry.1006557993", selectedPlan); // Pricing Plan field code
 
     fetch(
-      "https://docs.google.com/forms/d/1oqVLdo1HJ6yiGf3U8twMRPhyaNXzLCzZHyX4LAKqFNY/formResponse",
+      "https://docs.google.com/forms/d/1wWdZ1hRX2GTClBneIKpYyRtXExJhmW8MwRUp7q6P86c/formResponse",
       {
         method: "POST",
         mode: "no-cors",
@@ -82,7 +82,7 @@ const SubscriptionForm = () => {
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
                       <input
-                        name="entry.1122186267"
+                        name="entry.207834910"
                         type="text"
                         placeholder="Your Name"
                         value={name}
@@ -95,7 +95,7 @@ const SubscriptionForm = () => {
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                     <div className="postbox__comment-input">
                       <input
-                        name="entry.1918902053"
+                        name="entry.846044297"
                         type="email"
                         placeholder="Your Email"
                         value={email}
